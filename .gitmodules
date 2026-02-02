@@ -1,0 +1,14 @@
+[submodule "botbuilder-dotnet"]
+	path = botbuilder-dotnet
+	url = https://github.com/Microsoft/botbuilder-dotnet.git
+[submodule "agents-for-net"]
+	path = agents-for-net
+	url = https://github.com/microsoft/agents-for-net
+[submodule "teams.net"]
+	path = teams.net
+	url = https://github.com/microsoft/teams.net
+	branch = main
+[submodule "core-teams.net"]
+	path = core-teams.net
+	url = https://github.com/microsoft/teams.net
+	branch = next/core
