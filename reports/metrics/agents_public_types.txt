@@ -1,0 +1,625 @@
+agents-for-net/src/libraries/Authentication/Authentication.Msal/Model/ConnectionSettings.cs:16:    public class ConnectionSettings : ConnectionSettingsBase, IMSALConnectionSettings
+agents-for-net/src/libraries/Authentication/Authentication.Msal/Model/AuthTypes.cs:6:    public enum AuthTypes
+agents-for-net/src/libraries/Authentication/Authentication.Msal/MsalAuth.cs:37:    public class MsalAuth : IAccessTokenProvider, IOBOExchange, IMSALProvider, IAgenticTokenProvider
+agents-for-net/src/libraries/Authentication/Authentication.Msal/MSALHttpRetryHandlerHelper.cs:14:    public class MSALHttpRetryHandlerHelper : DelegatingHandler
+agents-for-net/src/libraries/Authentication/Authentication.Msal/IMSALProvider.cs:8:    public interface IMSALProvider
+agents-for-net/src/libraries/Authentication/Authentication.Msal/Interfaces/IMSALConnectionSettings.cs:8:    public interface IMSALConnectionSettings : IConnectionSettings
+agents-for-net/src/libraries/Authentication/Authentication.Msal/Utils/AppSettingsHelper.cs:112:		public enum TimeSpanFromKey
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/State/MemoryFork.cs:10:    public class MemoryFork : TurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/TeamsApplication.cs:14:public class TeamsApplication : AgentApplication
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/OpenAI/Models/Assistant.cs:9:    public class Assistant
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/OpenAI/Models/Assistant.cs:80:    public class AssistantCreateParams
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/OpenAI/Models/Tool.cs:9:    public class Tool
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/OpenAI/Models/Tool.cs:39:    public class Function
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/OpenAI/OpenAIClientOptions.cs:6:    public class OpenAIClientOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/DefaultModerator.cs:12:    public class DefaultModerator<TState> : IModerator<TState> where TState : ITurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/OpenAIModeratorOptions.cs:7:    public class OpenAIModeratorOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/OpenAIModeratorOptions.cs:49:    public enum ModerationType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/AzureContentSafetyModerator.cs:14:    public class AzureContentSafetyModerator<TState> : IModerator<TState> where TState : ITurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/ModerationResponse.cs:8:    public class ModerationResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/ModerationResponse.cs:32:    public class ModerationResult
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/ModerationResponse.cs:65:    public class ModerationCategoriesFlagged
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/ModerationResponse.cs:137:    public class ModerationCategoryScores
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/AzureContentSafetyTextCategory.cs:8:    public enum AzureContentSafetyTextCategory
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/IModerator.cs:12:    public interface IModerator<TState> where TState : ITurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/AzureContentSafetyModeratorOptions.cs:6:    public class AzureContentSafetyModeratorOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Moderator/OpenAIModerator.cs:15:    public class OpenAIModerator<TState> : IModerator<TState> where TState : ITurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Validators/JSONResponseValidator.cs:16:    public class JsonResponseValidator : IPromptResponseValidator
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Validators/DefaultResponseValidator.cs:12:    public class DefaultResponseValidator : IPromptResponseValidator
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Validators/Validation.cs:6:    public class Validation
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Validators/ActionResponseValidator.cs:14:    public class ValidatedChatCompletionAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Validators/ActionResponseValidator.cs:30:    public class ActionResponseValidator : IPromptResponseValidator
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Validators/IPromptResponseValidator.cs:12:    public interface IPromptResponseValidator
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatMessage.cs:17:    public class ChatMessage
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatMessage.cs:312:    public class FunctionCall
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatMessage.cs:342:    public class ActionCall
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatMessage.cs:428:    public class ActionCallType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatMessage.cs:439:    public class ActionFunction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatMessage.cs:491:    public class TextContentPart : MessageContentParts
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatMessage.cs:507:    public class ImageContentPart : MessageContentParts
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/IPromptCompletionModel.cs:12:    public interface IPromptCompletionModel
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/AzureOpenAIModelOptions.cs:9:    public class AzureOpenAIModelOptions : BaseOpenAIModelOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/PromptChunk.cs:6:    public class PromptChunk
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/MessageContext.cs:10:    public class MessageContext
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatCompletionsFunctionToolCall.cs:9:    public class ChatCompletionsFunctionToolCall : ChatCompletionsToolCall
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/OpenAIModelOptions.cs:8:    public class OpenAIModelOptions : BaseOpenAIModelOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/IPromptCompletionStreamingModel.cs:7:    public interface IPromptCompletionStreamingModel : IPromptCompletionModel
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/ChatCompletionAction.cs:11:    public class ChatCompletionAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/AssistantsMessage.cs:14:    public class AssistantsMessage : ChatMessage
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/AssistantsMessage.cs:125:    public class OpenAIFile
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/OpenAIModel.cs:48:    public class OpenAIModel : IPromptCompletionStreamingModel
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/IPromptCompletionModelEvents.cs:11:    public interface IPromptCompletionModelEvents
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/IPromptCompletionModelEvents.cs:36:    public class BeforeCompletionEventArgs : EventArgs
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/IPromptCompletionModelEvents.cs:91:    public class ChunkReceivedEventArgs : EventArgs
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/IPromptCompletionModelEvents.cs:125:    public class ResponseReceivedEventArgs : EventArgs
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Models/PromptCompletionModelEmitter.cs:8:    public class PromptCompletionModelEmitter
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Clients/LLMClient.cs:58:    public class LLMClient<TContent>
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Clients/LLMClientOptions.cs:15:    public class LLMClientOptions<TContent>
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/AI.cs:21:    public class AISystem
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/IPromptFunctions.cs:22:    public interface IPromptFunctions<TArgs>
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptManager.cs:29:    public class PromptManager : IPromptFunctions<List<string>>, IPromptDataSources, IPromptTemplates
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Prompt.cs:10:    public class Prompt : LayoutSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptManagerOptions.cs:8:    public class PromptManagerOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/IPromptDataSources.cs:8:    public interface IPromptDataSources
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/IPromptTemplates.cs:6:    public interface IPromptTemplates
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptTemplate.cs:13:    public class PromptTemplate
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptTemplate.cs:81:    public class PromptTemplateConfiguration
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptTemplate.cs:152:    public class CompletionConfiguration
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptTemplate.cs:279:        public enum CompletionType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptTemplate.cs:295:        public enum ChatToolChoice
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptTemplate.cs:328:    public class AugmentationConfiguration
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/GroupSection.cs:12:    public class GroupSection : LayoutSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/TextSection.cs:12:    public class TextSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/SystemMessageSection.cs:8:    public class SystemMessageSection : TemplateSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/AssistantMessageSection.cs:8:    public class AssistantMessageSection : TemplateSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/UserInputMessageSection.cs:12:    public class UserInputMessageSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/DataSourceSection.cs:13:    public class DataSourceSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/UserMessageSection.cs:8:    public class UserMessageSection : TemplateSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/TemplateSection.cs:32:    public class TemplateSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/ActionAugmentationSection.cs:18:    public class ActionAugmentationSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/ActionAugmentationSection.cs:32:            public class Action
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/FunctionResponseMessageSection.cs:12:    public class FunctionResponseMessageSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/PromptSection.cs:13:    public class RenderedPromptSection<TOutput>
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/ConversationHistorySection.cs:12:    public class ConversationHistorySection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/FunctionCallMessageSection.cs:16:    public class FunctionCallMessageSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/LayoutSection.cs:13:    public class LayoutSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/Sections/ActionOutputMessageSection.cs:14:    public class ActionOutputMessageSection : PromptSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptResponse.cs:9:    public class PromptResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Prompts/PromptResponse.cs:35:    public enum PromptResponseStatus
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/DataSources/IDataSource.cs:12:    public interface IDataSource
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/DataSources/TextDataSource.cs:12:    public class TextDataSource : IDataSource
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/MonologueAugmentation.cs:21:    public class InnerMonologue
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/MonologueAugmentation.cs:51:        public class InnerMonologueThoughts
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/MonologueAugmentation.cs:108:        public class InnerMonologueAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/MonologueAugmentation.cs:189:    public class MonologueAugmentation : IAugmentation
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/ToolsAugmentation.cs:16:    public class ToolsAugmentation : IAugmentation
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/IAugmentation.cs:13:    public interface IAugmentation : IPromptResponseValidator
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/DefaultAugmentation.cs:16:    public class DefaultAugmentation : IAugmentation
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/AugmentationType.cs:6:    public enum AugmentationType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Augmentations/SequenceAugmentation.cs:18:    public class SequenceAugmentation : IAugmentation
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Tokenizers/GPTTokenizer.cs:8:    public class GPTTokenizer : ITokenizer
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Tokenizers/ITokenizer.cs:6:    public interface ITokenizer
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Embeddings/OpenAIEmbeddings.cs:18:    public class OpenAIEmbeddings : IEmbeddingsModel
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Embeddings/AzureOpenAIEmbeddingsOptions.cs:9:    public class AzureOpenAIEmbeddingsOptions : BaseOpenAIEmbeddingsOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Embeddings/IEmbeddings.cs:6:    public interface IEmbeddingsModel
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Embeddings/EmbeddingsResponse.cs:6:    public class EmbeddingsResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Embeddings/EmbeddingsResponse.cs:27:    public enum EmbeddingsResponseStatus
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Embeddings/BaseOpenAIEmbeddingsOptions.cs:6:    public class BaseOpenAIEmbeddingsOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Embeddings/OpenAIEmbeddingsOptions.cs:8:    public class OpenAIEmbeddingsOptions : BaseOpenAIEmbeddingsOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/PredictedSayCommand.cs:11:    public class PredictedSayCommand : IPredictedCommand
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/AssistantsPlanner.cs:28:    public class AssistantsPlanner<TState> : IPlanner<TState>
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/PredictedDoCommand.cs:11:    public class PredictedDoCommand : IPredictedCommand
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/ActionPlannerOptions.cs:15:    public class ActionPlannerOptions<TState> where TState : ITurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/IPlanner.cs:10:    public interface IPlanner<TState> where TState : ITurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/ActionPlanner.cs:33:    public class ActionPlanner<TState> : IPlanner<TState> where TState : ITurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/Plan.cs:12:    public class Plan
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/IPredictedCommand.cs:10:    public interface IPredictedCommand
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/AssistantsState.cs:14:    public interface IAssistantsState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/AssistantsState.cs:45:    public class AssistantsState : TurnState, IAssistantsState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Planners/AssistantsPlannerOptions.cs:12:    public class AssistantsPlannerOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/TooManyStepsParameters.cs:6:    public class TooManyStepsParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Action/ActionParameterAttribute.cs:9:    public class ActionParameterAttribute : Attribute
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/AI/Action/IActionHandler.cs:11:    public interface IActionHandler<TState> where TState : ITurnState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/TeamsApplicationBuilder.cs:12:    public class TeamsApplicationBuilder
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/Exceptions/TeamsAIException.cs:7:    public class TeamsAIException : Exception
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams.AI/TeamsAgentApplicationOptions.cs:11:    public class TeamsAgentApplicationOptions : AgentApplicationOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/SurfaceType.cs:9:    public enum SurfaceType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/FileConsentCard.cs:9:    public class FileConsentCard
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardMultichoiceInputChoice.cs:9:    public class O365ConnectorCardMultichoiceInputChoice
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleResponse.cs:9:    public class TaskModuleResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamsChannelData.cs:12:    public class TeamsChannelData
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardImage.cs:9:    public class O365ConnectorCardImage
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamInfo.cs:9:    public class TeamInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TargetedMeetingNotification.cs:9:    public class TargetedMeetingNotification : MeetingNotification<TargetedMeetingNotificationValue>
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ConfigAuthResponse.cs:9:    public class ConfigAuthResponse : ConfigResponse<BotConfigAuth>
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/CacheInfo.cs:9:    public class CacheInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ConfigResponse.cs:10:    public class ConfigResponse<T> : ConfigResponseBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleAction.cs:15:    public class TaskModuleAction : CardAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionParameter.cs:9:    public class MessagingExtensionParameter
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionAction.cs:12:    public class MessagingExtensionAction : TaskModuleRequest
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/Surface.cs:11:    public class Surface
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleRequestContext.cs:9:    public class TaskModuleRequestContext
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingTabIconSurface.cs:9:    public class MeetingTabIconSurface : Surface
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingInfo.cs:12:    public class MeetingInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardMultichoiceInput.cs:11:    public class O365ConnectorCardMultichoiceInput : O365ConnectorCardInputBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCard.cs:11:    public class O365ConnectorCard
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MembershipTypes.cs:6:    public enum MembershipTypes
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MembershipSource.cs:9:    public class MembershipSource
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleRequest.cs:9:    public class TaskModuleRequest
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TargetedMeetingNotificationValue.cs:11:    public class TargetedMeetingNotificationValue
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardInputBase.cs:9:    public class O365ConnectorCardInputBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingNotificationChannelData.cs:11:    public class MeetingNotificationChannelData
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ReadReceiptInfo.cs:10:    public class ReadReceiptInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/BatchFailedEntry.cs:9:    public class BatchFailedEntry
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardActionBase.cs:9:    public class O365ConnectorCardActionBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/AppBasedLinkQuery.cs:9:    public class AppBasedLinkQuery
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/FileConsentCardResponse.cs:10:    public class FileConsentCardResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/SigninStateVerificationQuery.cs:9:    public class SigninStateVerificationQuery
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/UserMeetingDetails.cs:9:    public class UserMeetingDetails
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardActionCard.cs:11:    public class O365ConnectorCardActionCard : O365ConnectorCardActionBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ContentType.cs:9:    public enum ContentType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayloadFrom.cs:10:    public class MessageActionsPayloadFrom
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabResponsePayload.cs:9:    public class TabResponsePayload
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamsChannelAccount.cs:12:    public class TeamsChannelAccount : ChannelAccount
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardHttpPOST.cs:9:    public class O365ConnectorCardHttpPOST : O365ConnectorCardActionBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingEndEventDetails.cs:11:    public class MeetingEndEventDetails : MeetingEventDetails
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamsChannelDataSettings.cs:12:    public class TeamsChannelDataSettings
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleMessageResponse.cs:9:    public class TaskModuleMessageResponse : TaskModuleResponseBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamsMeetingMember.cs:9:    public class TeamsMeetingMember
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/FileUploadInfo.cs:9:    public class FileUploadInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamsParticipantChannelAccount.cs:12:    public class TeamsParticipantChannelAccount : TeamsChannelAccount
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionQuery.cs:11:    public class MessagingExtensionQuery
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingNotificationBase.cs:9:    public class MeetingNotificationBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabRequest.cs:9:    public class TabRequest
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabEntityContext.cs:9:    public class TabEntityContext
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ChannelInfo.cs:9:    public class ChannelInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MembershipSourceTypes.cs:6:    public enum MembershipSourceTypes
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ConversationList.cs:11:    public class ConversationList
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TenantInfo.cs:9:    public class TenantInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabResponse.cs:9:    public class TabResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardFact.cs:9:    public class O365ConnectorCardFact
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardViewAction.cs:11:    public class O365ConnectorCardViewAction : O365ConnectorCardActionBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/NotificationInfo.cs:9:    public class NotificationInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardDateInput.cs:9:    public class O365ConnectorCardDateInput : O365ConnectorCardInputBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ConfigResponseBase.cs:11:    public class ConfigResponseBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayloadUser.cs:9:    public class MessageActionsPayloadUser
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabResponseCard.cs:9:    public class TabResponseCard
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionResult.cs:12:    public class MessagingExtensionResult
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/FileDownloadInfo.cs:9:    public class FileDownloadInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayloadApp.cs:9:    public class MessageActionsPayloadApp
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingParticipantsEventDetails.cs:11:    public class MeetingParticipantsEventDetails
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamsPagedMembersResult.cs:14:    public class TeamsPagedMembersResult
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamDetails.cs:9:    public class TeamDetails
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionResponse.cs:9:    public class MessagingExtensionResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamsMeetingInfo.cs:9:    public class TeamsMeetingInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabSuggestedActions.cs:12:    public class TabSuggestedActions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/BotConfigAuth.cs:12:    public class BotConfigAuth
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingStartEventDetails.cs:11:    public class MeetingStartEventDetails : MeetingEventDetails
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleContinueResponse.cs:9:    public class TaskModuleContinueResponse : TaskModuleResponseBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardActionQuery.cs:9:    public class O365ConnectorCardActionQuery
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingDetails.cs:11:    public class MeetingDetails : MeetingDetailsBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingEventDetails.cs:11:    public class MeetingEventDetails : MeetingDetailsBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingDetailsBase.cs:11:    public class MeetingDetailsBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardSection.cs:11:    public class O365ConnectorCardSection
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingNotificationResponse.cs:12:    public class MeetingNotificationResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionQueryOptions.cs:9:    public class MessagingExtensionQueryOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardOpenUri.cs:11:    public class O365ConnectorCardOpenUri : O365ConnectorCardActionBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ClientInfo.cs:10:    public class ClientInfo : Entity
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionAttachment.cs:11:    public class MessagingExtensionAttachment : Attachment
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayload.cs:13:    public class MessageActionsPayload
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayloadReaction.cs:9:    public class MessageActionsPayloadReaction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/BatchFailedEntriesResponse.cs:12:    public class BatchFailedEntriesResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayloadMention.cs:9:    public class MessageActionsPayloadMention
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamsMeetingParticipant.cs:11:    public class TeamsMeetingParticipant
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionSuggestedAction.cs:12:    public class MessagingExtensionSuggestedAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleTaskInfo.cs:11:    public class TaskModuleTaskInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/FileInfoCard.cs:9:    public class FileInfoCard
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabResponseCards.cs:11:    public class TabResponseCards
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleResponseBase.cs:12:    public class TaskModuleResponseBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabContext.cs:9:    public class TabContext
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TaskModuleCardResponse.cs:9:    public class TaskModuleCardResponse : TaskModuleResponseBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingParticipantInfo.cs:9:    public class MeetingParticipantInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardOpenUriTarget.cs:9:    public class O365ConnectorCardOpenUriTarget
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingStageSurface.cs:10:    public class MeetingStageSurface<T> : Surface
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TeamMember.cs:9:    public class TeamMember
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayloadConversation.cs:9:    public class MessageActionsPayloadConversation
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayloadBody.cs:9:    public class MessageActionsPayloadBody
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingNotificationRecipientFailureInfo.cs:9:    public class MeetingNotificationRecipientFailureInfo
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/O365ConnectorCardTextInput.cs:9:    public class O365ConnectorCardTextInput : O365ConnectorCardInputBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessagingExtensionActionResponse.cs:9:    public class MessagingExtensionActionResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/OnBehalfOf.cs:9:    public class OnBehalfOf
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabSubmit.cs:9:    public class TabSubmit
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MessageActionsPayloadAttachment.cs:9:    public class MessageActionsPayloadAttachment
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/TabSubmitData.cs:12:    public class TabSubmitData
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/MeetingNotification.cs:10:    public class MeetingNotification<T> : MeetingNotificationBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/ConfigTaskResponse.cs:9:    public class ConfigTaskResponse : ConfigResponse<TaskModuleResponseBase>
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Models/BatchOperationState.cs:13:    public class BatchOperationState
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Compat/TeamsActivityHandler.cs:25:    public class TeamsActivityHandler : ActivityHandler
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/TaskModules/TaskModule.cs:23:    public class TaskModule
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/TaskModules/TaskModulesOptions.cs:9:    public class TaskModulesOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/TeamsConversationUpdateEvents.cs:11:    public class TeamsConversationUpdateEvents : ConversationUpdateEvents
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/FeedbackLoopData.cs:11:    public class FeedbackLoopData : FeedbackData
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/FeedbackLoopData.cs:18:    public class FeedbackLoopDataActionValue : FeedbackActionValue
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/MessageExtensions/MessageExtension.cs:24:    public class MessageExtensionsInvokeNames
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/MessageExtensions/MessageExtension.cs:47:    public class MessageExtension
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/TeamsAttachmentDownloader.cs:14:    public class TeamsAttachmentDownloader(
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/TeamsAttachmentDownloader.cs:25:    public class TeamsAttachmentDownloaderOptions : Microsoft.Agents.Builder.App.M365AttachmentDownloaderOptions
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/Meetings/Meeting.cs:17:    public class Meeting
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/App/TeamsAgentExtension.cs:23:    public class TeamsAgentExtension : AgentExtension
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Connector/RestTeamsConnectorClient.cs:13:    public class RestTeamsConnectorClient : ITeamsConnectorClient
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Connector/ITeamsConnectorClient.cs:11:    public interface ITeamsConnectorClient : IDisposable
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.Teams/Connector/ITeamsOperations.cs:15:    public interface ITeamsOperations
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneLabelProperties.cs:9:    public class PropertyPaneLabelProperties : IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneChoiceGroupImageSize.cs:9:    public class PropertyPaneChoiceGroupImageSize
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneChoiceGroupProperties.cs:11:    public class PropertyPaneChoiceGroupProperties : IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/QuickViewData.cs:9:    public class QuickViewData
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPanePage.cs:11:    public class PropertyPanePage
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneDropDownOption.cs:9:    public class PropertyPaneDropDownOption
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneDropDownOption.cs:22:        public enum DropDownOptionType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/QuickViewResponse.cs:11:    public class QuickViewResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPanePageHeader.cs:9:    public class PropertyPanePageHeader
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneLinkProperties.cs:9:    public class PropertyPaneLinkProperties : IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneGroup.cs:11:    public class PropertyPaneGroup : IPropertyPaneGroupOrConditionalGroup
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/FocusParameters.cs:11:    public class FocusParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/FocusParameters.cs:24:        public enum AriaLiveOption
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/ShowLocationActionParameters.cs:9:    public class ShowLocationActionParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/ShowLocationAction.cs:9:    public class ShowLocationAction : BaseAction, IAction, IOnCardSelectionAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/QuickViewAction.cs:9:    public class QuickViewAction : BaseAction, IAction, IOnCardSelectionAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/GetLocationAction.cs:9:    public class GetLocationAction : BaseAction, IAction, IOnCardSelectionAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/ICardActionParameters.cs:10:    public interface ICardActionParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/QuickViewActionParameters.cs:9:    public class QuickViewActionParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/GetLocationActionParameters.cs:9:    public class GetLocationActionParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/IAction.cs:9:    public interface IAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/Location.cs:9:    public class Location 
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/ConfirmationDialog.cs:9:    public class ConfirmationDialog
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/ExternalLinkActionParameters.cs:9:    public class ExternalLinkActionParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/SelectMediaAction.cs:9:    public class SelectMediaAction : BaseAction, IAction, IOnCardSelectionAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/SelectMediaActionParameters.cs:11:    public class SelectMediaActionParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/SelectMediaActionParameters.cs:24:        public enum MediaTypeOption
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/SubmitAction.cs:11:    public class SubmitAction : BaseAction, IAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/ExternalLinkAction.cs:10:    public class ExternalLinkAction : BaseAction, IAction, IOnCardSelectionAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/IOnCardSelectionAction.cs:10:    public interface IOnCardSelectionAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/ExecuteAction.cs:11:    public class ExecuteAction : BaseAction, IAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/Actions/BaseAction.cs:9:    public class BaseAction
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/IPropertyPaneFieldProperties.cs:9:    public interface IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneTextFieldProperties.cs:9:    public class PropertyPaneTextFieldProperties : IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardSearchBoxComponent.cs:9:    public class CardSearchBoxComponent : BaseCardComponent
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardTextInputIconButton.cs:9:    public class CardTextInputIconButton : CardTextInputBaseButton
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardTextInputTitleButton.cs:9:    public class CardTextInputTitleButton : CardTextInputBaseButton
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardViewParameters.cs:13:    public class CardViewParameters
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardButtonComponent.cs:11:    public enum CardButtonStyle
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardButtonComponent.cs:27:    public class CardButtonComponent : BaseCardComponent, ICardButtonBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardBarComponent.cs:9:    public class CardBarComponent : BaseCardComponent
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/ICardButtonBase.cs:11:    public interface ICardButtonBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardSearchFooterComponent.cs:12:    public class CardSearchFooterComponent : BaseCardComponent
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardTextComponent.cs:9:    public class CardTextComponent : BaseCardComponent
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardImage.cs:9:    public class CardImage
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardTextInputComponent.cs:9:    public class CardTextInputComponent : BaseCardComponent
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardComponentName.cs:9:    public enum CardComponentName
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardTextInputBaseButton.cs:11:    public class CardTextInputBaseButton : ICardButtonBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/CardSearchBoxButton.cs:11:    public class CardSearchBoxButton : ICardButtonBase
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardView/BaseCardComponent.cs:9:    public class BaseCardComponent
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneChoiceGroupOption.cs:9:    public class PropertyPaneChoiceGroupOption
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/AceData.cs:10:    public class AceData
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/AceData.cs:23:        public enum AceCardSize
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneDropDownProperties.cs:11:    public class PropertyPaneDropDownProperties : IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/IPropertyPaneGroupOrConditionalGroup.cs:9:    public interface IPropertyPaneGroupOrConditionalGroup
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneToggleProperties.cs:9:    public class PropertyPaneToggleProperties : IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/AceRequest.cs:9:    public class AceRequest
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneGroupField.cs:9:    public class PropertyPaneGroupField
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneGroupField.cs:22:        public enum FieldType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/QuickViewHandleActionResponse.cs:9:    public class QuickViewHandleActionResponse : BaseHandleActionResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardViewResponse.cs:12:    public class CardViewResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/CardViewHandleActionResponse.cs:9:    public class CardViewHandleActionResponse : BaseHandleActionResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/GetPropertyPaneConfigurationResponse.cs:11:    public class GetPropertyPaneConfigurationResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/NoOpHandleActionResponse.cs:9:    public class NoOpHandleActionResponse : BaseHandleActionResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneLinkPopupWindowProperties.cs:9:    public class PropertyPaneLinkPopupWindowProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneLinkPopupWindowProperties.cs:22:        public enum PopupWindowPosition
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneCheckboxProperties.cs:9:    public class PropertyPaneCheckboxProperties : IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneSliderProperties.cs:9:    public class PropertyPaneSliderProperties : IPropertyPaneFieldProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/BaseHandleActionResponse.cs:9:    public enum ViewResponseType
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/BaseHandleActionResponse.cs:30:    public class BaseHandleActionResponse
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Models/PropertyPaneChoiceGroupIconProperties.cs:9:    public class PropertyPaneChoiceGroupIconProperties
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Compat/SharePointSSOTokenExchangeMiddleware.cs:40:    public class SharePointSSOTokenExchangeMiddleware
+agents-for-net/src/libraries/Extensions/Microsoft.Agents.Extensions.SharePoint/Compat/SharePointActivityHandler.cs:20:    public class SharePointActivityHandler : ActivityHandler
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/IAgentHost.cs:16:    public interface IAgentHost
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/HttpAgentClientSettings.cs:9:    public class HttpAgentClientSettings : AgentClientSettings
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/HttpAgentClientSettings.cs:45:    public class ConnectionSettings
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/IAgentInfo.cs:6:    public interface IAgentInfo
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/AgentClientSettings.cs:9:    public class AgentClientSettings() : IAgentInfo
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/AgentConversation.cs:11:    public class AgentConversation
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/ChannelConversationReference.cs:11:    public class ChannelConversationReference
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/Compat/SkillChannelApiHandler.cs:30:    public class SkillChannelApiHandler : IChannelApiHandler
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/StreamResponse.cs:6:    public enum StreamResponseStatus
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/StreamResponse.cs:13:    public class StreamResponse<T>
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/IAgentClient.cs:13:    public interface IAgentClient : IDisposable
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/AgentResponses.cs:22:    public class AgentResponses(AgentApplication agentApplication, IAgentHost agentHost) : IAgentExtension
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/AdapterChannelResponseHandler.cs:37:        public class ChannelReply
+agents-for-net/src/libraries/Client/Microsoft.Agents.Client/ConfigurationAgentHost.cs:25:    public class ConfigurationAgentHost : IAgentHost
+agents-for-net/src/libraries/Client/Microsoft.Agents.CopilotStudio.Client/ConnectionSettings.cs:14:    public class ConnectionSettings : ICopilotStudioClientConnectionSettings
+agents-for-net/src/libraries/Client/Microsoft.Agents.CopilotStudio.Client/Interfaces/ICopilotStudioClientConnectionSettings.cs:9:    public interface ICopilotStudioClientConnectionSettings
+agents-for-net/src/libraries/Client/Microsoft.Agents.CopilotStudio.Client/CopilotClient.cs:27:    public class CopilotClient
+agents-for-net/src/libraries/Client/Microsoft.Agents.CopilotStudio.Client/Discovery/PowerPlatformCloud.cs:12:    public enum PowerPlatformCloud
+agents-for-net/src/libraries/Client/Microsoft.Agents.CopilotStudio.Client/Discovery/AgentType.cs:11:    public enum AgentType
+agents-for-net/src/libraries/Client/Microsoft.Agents.CopilotStudio.Client/ExecuteTurnRequest.cs:12:    public class ExecuteTurnRequest
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/IUserTokenClient.cs:15:    public interface IUserTokenClient : IDisposable
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/MCSConnectorClient.cs:25:    public class MCSConnectorClient : RestClientBase, IConnectorClient
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/IAttachments.cs:14:    public interface IAttachments
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/RestConnectorClient.cs:16:    public class RestConnectorClient : RestClientBase, IConnectorClient
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/IConnectorClient.cs:9:    public interface IConnectorClient : System.IDisposable
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/Types/AttachmentInfo.cs:11:    public class AttachmentInfo
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/Types/AttachmentData.cs:9:    public class AttachmentData
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/Types/ConversationResourceResponse.cs:9:    public class ConversationResourceResponse
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/Types/ConversationsResult.cs:11:    public class ConversationsResult
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/Types/ConversationMembers.cs:12:    public class ConversationMembers
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/Types/AttachmentView.cs:9:    public class AttachmentView
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/IRestTransport.cs:10:    public interface IRestTransport
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/RestClients/RestClientBase.cs:12:    public class RestClientBase(Uri endpoint, IHttpClientFactory httpClientFactory, string httpClientName, Func<Task<string>> tokenProviderFunction) : IRestTransport
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/IConversations.cs:15:    public interface IConversations
+agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/RestUserTokenClient.cs:23:    public class RestUserTokenClient : RestClientBase, IUserTokenClient, IDisposable
+agents-for-net/src/libraries/Hosting/A2A/A2AAdapter.cs:40:public class A2AAdapter : ChannelAdapter, IA2AHttpAdapter
+agents-for-net/src/libraries/Hosting/A2A/JsonRpc/JsonRpcError.cs:10:public class JsonRpcError
+agents-for-net/src/libraries/Hosting/A2A/IAgentCardHandler.cs:12:public interface IAgentCardHandler
+agents-for-net/src/libraries/Hosting/A2A/Protocol/TransportProtocol.cs:15:public class TransportProtocol : IEquatable<TransportProtocol>
+agents-for-net/src/libraries/Hosting/A2A/Protocol/Message.cs:16:public enum MessageRole
+agents-for-net/src/libraries/Hosting/A2A/Protocol/TaskState.cs:12:public enum TaskState
+agents-for-net/src/libraries/Hosting/A2A/IA2AHttpAdapter.cs:15:public interface IA2AHttpAdapter : IAgentHttpAdapter
+agents-for-net/src/libraries/Hosting/AspNetCore/IChannelResponseHandler.cs:11:    public interface IChannelResponseHandler
+agents-for-net/src/libraries/Hosting/AspNetCore/AdapterOptions.cs:6:    public class AdapterOptions
+agents-for-net/src/libraries/Hosting/AspNetCore/ChannelApiController.cs:25:    public class ChannelApiController(IChannelApiHandler handler) : Controller
+agents-for-net/src/libraries/Hosting/AspNetCore/IAgentHttpAdapter.cs:14:    public interface IAgentHttpAdapter
+agents-for-net/src/libraries/Hosting/AspNetCore/HeaderPropagationMiddleware.cs:14:public class HeaderPropagationMiddleware
+agents-for-net/src/libraries/Hosting/AspNetCore/CloudAdapter.cs:29:    public class CloudAdapter
+agents-for-net/src/libraries/Hosting/AspNetCore/ChannelResponseQueue.cs:25:    public class ChannelResponseQueue(ILogger logger)
+agents-for-net/src/libraries/Hosting/AspNetCore/BackgroundQueue/IActivityTaskQueue.cs:17:    public interface IActivityTaskQueue
+agents-for-net/src/libraries/Hosting/AspNetCore/BackgroundQueue/ActivityWithClaims.cs:16:    public class ActivityWithClaims
+agents-for-net/src/libraries/Hosting/AspNetCore/BackgroundQueue/IBackgroundTaskQueue.cs:13:    public interface IBackgroundTaskQueue
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/ITranscriptStore.cs:13:    public interface ITranscriptStore : ITranscriptLogger
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/BlobsTranscriptStore.cs:30:    public class BlobsTranscriptStore : ITranscriptStore
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/MemoryTranscriptStore.cs:19:    public class MemoryTranscriptStore : ITranscriptStore
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/FileTranscriptLogger.cs:22:    public class FileTranscriptLogger : ITranscriptStore
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/PagedResult.cs:12:    public class PagedResult<T>
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/ITranscriptLogger.cs:12:    public interface ITranscriptLogger
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/TranscriptInfo.cs:11:    public class TranscriptInfo
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/TraceTranscriptLogger.cs:19:    public class TraceTranscriptLogger(bool traceActivity = true) : ITranscriptLogger
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.CosmosDb/CosmosDbPartitionedStorage.cs:24:    public class CosmosDbPartitionedStorage : IStorage, IDisposable
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.CosmosDb/CosmosDbPartitionedStorageOptions.cs:12:    public class CosmosDbPartitionedStorageOptions
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Blobs/BlobsStorage.cs:34:    public class BlobsStorage : IStorage
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage/EtagException.cs:8:    public class EtagException : Exception
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage/IStorage.cs:13:    public interface IStorage
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage/IStorage.cs:76:    public interface IStoreItem
+agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage/MemoryStorage.cs:24:    public class MemoryStorage(JsonSerializerOptions jsonSerializer = null, Dictionary<string, JsonObject> dictionary = null) : IStorage
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core.Analyzers/EntityInitSourceGenerator.cs:19:    public class EntityInitSourceGenerator : IIncrementalGenerator
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core.Analyzers/SerializationInitSourceGenerator.cs:17:    public class SerializationInitSourceGenerator : IIncrementalGenerator
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/Model/ConnectionMapItem.cs:6:    public class ConnectionMapItem
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/ConfigurationConnections.cs:43:    public class ConfigurationConnections : IConnections
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/IAccessTokenProvider.cs:10:    public interface IAccessTokenProvider
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/IAgenticTokenProvider.cs:10:    public interface IAgenticTokenProvider
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/ImmutableConnectionSettings.cs:11:    public class ImmutableConnectionSettings(ConnectionSettingsBase settings)
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/IConnectionSettings.cs:9:    public interface IConnectionSettings
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/IConnections.cs:13:    public interface IConnections
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/ICertificateProvider.cs:11:    public interface ICertificateProvider
+agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/IOBOExchange.cs:13:    public interface IOBOExchange
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ICommandResultActivity.cs:9:    public interface ICommandResultActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IHandoffActivity.cs:9:    public interface IHandoffActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ICommandActivity.cs:9:    public interface ICommandActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/SearchInvokeValue.cs:9:    public class SearchInvokeValue
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ConversationParameters.cs:12:    public class ConversationParameters
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ActivityTreatmentTypes.cs:9:    public class ActivityTreatmentTypes
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/InnerHttpError.cs:9:    public class InnerHttpError
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Attachment.cs:12:    public class Attachment
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenExchangeInvokeResponse.cs:12:    public class TokenExchangeInvokeResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Thing.cs:9:    public class Thing : Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IEventActivity.cs:9:    public interface IEventActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/CommandResultValue.cs:12:    public class CommandResultValue<T>
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IActivity.cs:13:    public interface IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/InvokeResponse{T}.cs:13:    public class InvokeResponse<T> : InvokeResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/PagedMembersResult.cs:11:    public class PagedMembersResult
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ITraceActivity.cs:19:    public interface ITraceActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AdaptiveCardInvokeResponse.cs:9:    public class AdaptiveCardInvokeResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/MediaUrl.cs:9:    public class MediaUrl
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenStatus.cs:11:    public class TokenStatus
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/SignInResource.cs:9:    public class SignInResource
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/InvokeResponse.cs:9:    public class InvokeResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/CitationUtils.cs:10:    public class CitationUtils
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/SuggestedActions.cs:13:    public class SuggestedActions
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IMessageUpdateActivity.cs:9:    public interface IMessageUpdateActivity : IMessageActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/CommandValue.cs:11:    public class CommandValue<T>
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Citation.cs:15:    public class Citation(string content, string title, string url)
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/SemanticAction.cs:11:    public class SemanticAction
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Mention.cs:9:    public class Mention : Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/CardAction.cs:20:    public class CardAction
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ConversationTypes.cs:6:    public class ConversationTypes
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/MediaCard.cs:11:    public class MediaCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IInstallationUpdateActivity.cs:9:    public interface IInstallationUpdateActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IContactRelationUpdateActivity.cs:9:    public interface IContactRelationUpdateActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Fact.cs:12:    public class Fact
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/HeroCard.cs:11:    public class HeroCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AudioCard.cs:11:    public class AudioCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/BasicCard.cs:11:    public class BasicCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TextHighlight.cs:9:    public class TextHighlight
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Entity.cs:26:    public class Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenOrSignInResourceResponse.cs:6:    public class TokenOrSignInResourceResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenExchangeInvokeRequest.cs:12:    public class TokenExchangeInvokeRequest
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/VideoCard.cs:11:    public class VideoCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenExchangeRequest.cs:9:    public class TokenExchangeRequest
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ReceiptItem.cs:9:    public class ReceiptItem
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IEndOfConversationActivity.cs:9:    public interface IEndOfConversationActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IMessageDeleteActivity.cs:9:    public interface IMessageDeleteActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ExpectedReplies.cs:11:    public class ExpectedReplies
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Place.cs:9:    public class Place : Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenResponse.cs:13:    public class TokenResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IInvokeActivity.cs:9:    public interface IInvokeActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenRequest.cs:11:    public class TokenRequest
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AdaptiveCardInvokeAction.cs:9:    public class AdaptiveCardInvokeAction
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ConversationReference.cs:22:    public class ConversationReference
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ReceiptCard.cs:11:    public class ReceiptCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/CardImage.cs:9:    public class CardImage
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ISuggestionActivity.cs:13:    public interface ISuggestionActivity : IMessageActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ThumbnailUrl.cs:9:    public class ThumbnailUrl
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ActivityTreatment.cs:10:    public class ActivityTreatment : Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Error.cs:9:    public class Error
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IMessageActivity.cs:9:    public interface IMessageActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AadResourceUrls.cs:11:    public class AadResourceUrls
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ChannelId.cs:11:    public class ChannelId
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ConversationAccount.cs:17:    public class ConversationAccount
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/SearchInvokeOptions.cs:9:    public class SearchInvokeOptions
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/OAuthCard.cs:11:    public class OAuthCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/SigninCard.cs:11:    public class SigninCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/GeoCoordinates.cs:9:    public class GeoCoordinates : Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ProductInfo.cs:6:    public class ProductInfo :Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/SearchInvokeResponse.cs:9:    public class SearchInvokeResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenPollingSettings.cs:9:    public class TokenPollingSettings
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Transcript.cs:11:    public class Transcript
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/MessageReaction.cs:9:    public class MessageReaction
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenExchangeState.cs:11:    public class TokenExchangeState
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AIEntity.cs:16:    public class AIEntity : Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AIEntity.cs:63:    public class ClientCitation
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AIEntity.cs:187:    public class ClientCitationAppearance
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AIEntity.cs:240:    public class SensitivityUsageInfo
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AIEntity.cs:277:    public class SensitivityUsageInfoPattern
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AIEntity.cs:304:    public class AppearanceImage
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AIEntity.cs:424:    public enum ClientCitationsIconNameEnum
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/MediaEventValue.cs:9:    public class MediaEventValue
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IConversationUpdateActivity.cs:9:    public interface IConversationUpdateActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenExchangeResource.cs:9:    public class TokenExchangeResource
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AdaptiveCardInvokeValue.cs:9:    public class AdaptiveCardInvokeValue
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/StreamInfo.cs:9:    public class StreamInfo : Entity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ThumbnailCard.cs:11:    public class ThumbnailCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/TokenPostResource.cs:9:    public class TokenPostResource
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ChannelAccount.cs:12:    public class ChannelAccount
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/IMessageReactionActivity.cs:9:    public interface IMessageReactionActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ResourceResponse.cs:9:    public class ResourceResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/Activity.cs:17:    public class Activity :
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/ITypingActivity.cs:9:    public interface ITypingActivity : IActivity
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Models/AnimationCard.cs:11:    public class AnimationCard
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Serialization/Converters/InterfaceConverter.cs:10:    public class InterfaceConverter<M, I> : JsonConverter<I> where M : class, I
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Serialization/Converters/JsonStringEnumMemberConverter.cs:18:    public class JsonStringEnumMemberConverter<T> : JsonConverter<T> where T : struct, Enum
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Serialization/Converters/JsonStringEnumMemberConverter.cs:141:    public class JsonStringEnumMemberConverter : JsonConverterFactory
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Serialization/EntityInitAssemblyAttribute.cs:16:    public class EntityInitAssemblyAttribute(Type type) : Attribute
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Serialization/SerializationInitAssemblyAttribute.cs:16:    public class SerializationInitAssemblyAttribute(Type type) : Attribute
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Serialization/SerializationInitAttribute.cs:9:    public class SerializationInitAttribute : Attribute
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Validation/ValidationContext.cs:9:    public enum ValidationContext
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Errors/AgentErrorDefinition.cs:37:    public class AgentErrorDefinition(int code, string description, string helplink)
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Errors/ErrorResponse.cs:17:    public class ErrorResponse
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Errors/ErrorResponseException.cs:22:    public class ErrorResponseException(string message, System.Exception innerException = null) : Exception(message, innerException)
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/HeaderPropagation/HeaderPropagationEntry.cs:11:public class HeaderPropagationEntry
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/HeaderPropagation/HeaderPropagationAttribute.cs:15:public class HeaderPropagationAttribute : Attribute
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/HeaderPropagation/HeaderPropagationEntryCollection.cs:13:public class HeaderPropagationEntryCollection
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/HeaderPropagation/HeaderPropagationContext.cs:15:public class HeaderPropagationContext()
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/HeaderPropagation/IHeaderPropagationAttribute.cs:10:public interface IHeaderPropagationAttribute
+agents-for-net/src/libraries/Core/Microsoft.Agents.Core/HeaderPropagation/HeaderPropagationEntryTypes.cs:11:public enum HeaderPropagationEntryAction
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/ComponentDialog.cs:18:    public class ComponentDialog : DialogContainer
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogState.cs:13:    public class DialogState
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/SkillDialogOptions.cs:14:    public class SkillDialogOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogInstance.cs:14:    public class DialogInstance
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/WaterfallStepContext.cs:16:    public class WaterfallStepContext : DialogContext
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/WaterfallDialog.cs:18:    public class WaterfallDialog : Dialog
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogContext.cs:22:    public class DialogContext
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/ChoiceFactoryOptions.cs:11:    public class ChoiceFactoryOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/Tokenizer.cs:20:    public class Tokenizer
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/ChoiceFactory.cs:14:    public class ChoiceFactory
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/SortedValue.cs:11:    public class SortedValue
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/Choice.cs:13:    public class Choice
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/ModelResult.cs:10:    public class ModelResult<T>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/ListStyle.cs:10:    public enum ListStyle
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/FindChoicesOptions.cs:11:    public class FindChoicesOptions : FindValuesOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/Token.cs:10:    public class Token
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/FoundValue.cs:10:    public class FoundValue
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/FoundChoice.cs:11:    public class FoundChoice
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Choices/FindValuesOptions.cs:11:    public class FindValuesOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogEvents.cs:9:    public class DialogEvents
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogReason.cs:11:    public enum DialogReason
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/OAuthPromptSettings.cs:12:    public class OAuthPromptSettings : OAuthSettings
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/ChoicePrompt.cs:19:    public class ChoicePrompt : Prompt<FoundChoice>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/PromptValidatorContext.cs:12:    public class PromptValidatorContext<T>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/DateTimeResolution.cs:12:    public class DateTimeResolution
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/TextPrompt.cs:16:    public class TextPrompt : Prompt<string>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/ConfirmPrompt.cs:20:    public class ConfirmPrompt : Prompt<bool>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/OAuthPrompt.cs:55:    public class OAuthPrompt : Dialog
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/ActivityPrompt.cs:21:    public class ActivityPrompt : Dialog
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/PromptOptions.cs:13:    public class PromptOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/NumberPrompt.cs:26:    public class NumberPrompt<T> : Prompt<T>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/PromptRecognizerResult.cs:10:    public class PromptRecognizerResult<T>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/AttachmentPrompt.cs:16:    public class AttachmentPrompt : Prompt<IList<Attachment>>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/PromptCultureModel.cs:9:    public class PromptCultureModel
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Prompts/DatetimePrompt.cs:18:    public class DateTimePrompt : Prompt<IList<DateTimeResolution>>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/SourceContext.cs:11:    public class SourceContext
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/IDialogDebugger.cs:12:    public interface IDialogDebugger
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/IDialogDebugger.cs:29:    public interface IDebugger
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/SourceMap.cs:11:    public class SourceMap : ConcurrentDictionary<object, SourceRange>, ISourceMap
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/SourcePoint.cs:11:    public class SourcePoint : IEquatable<SourcePoint>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/NullSourceMap.cs:9:    public class NullSourceMap : ISourceMap
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/NullDialogDebugger.cs:12:    public class NullDialogDebugger : IDialogDebugger
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/SourceRange.cs:12:    public class SourceRange : IEquatable<SourceRange>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/Debugging/ISourceMap.cs:9:    public interface ISourceMap
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/BeginSkillDialogOptions.cs:11:    public class BeginSkillDialogOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogTurnResult.cs:16:    public class DialogTurnResult
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogEvent.cs:9:    public class DialogEvent
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogSet.cs:18:    public class DialogSet
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/DialogTurnStatus.cs:9:    public enum DialogTurnStatus
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder.Dialogs/SkillDialog.cs:27:    public class SkillDialog : Dialog
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/UserState.cs:17:    public class UserState(IStorage storage) : AgentState(storage, ScopeName)
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/IAgentState.cs:24:    public interface IAgentState
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/IPropertyManager.cs:11:    public interface IPropertyManager
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/IStatePropertyAccessor.cs:15:    public interface IStatePropertyAccessor<T> 
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/TempState.cs:12:    public class TempState : IAgentState
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/TurnState.cs:17:    public class TurnState : ITurnState
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/PrivateConversationState.cs:17:    public class PrivateConversationState(IStorage storage) : AgentState(storage, ScopeName)
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/ConversationState.cs:17:    public class ConversationState(IStorage storage) : AgentState(storage, ScopeName)
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/State/ITurnState.cs:13:    public interface ITurnState
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IStreamingResponse.cs:11:    public enum StreamingResponseResult
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IStreamingResponse.cs:21:    public interface IStreamingResponse
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IChannelServiceClientFactory.cs:17:    public interface IChannelServiceClientFactory
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/TranscriptLoggerMiddleware.cs:20:    public class TranscriptLoggerMiddleware(ITranscriptLogger transcriptLogger) : IMiddleware
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/RestChannelServiceClientFactory.cs:31:    public class RestChannelServiceClientFactory : IChannelServiceClientFactory
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IMiddlewareSet.cs:9:    public interface IMiddlewareSet
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IChannelApiHandler.cs:24:    public interface IChannelApiHandler
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IAgent.cs:18:    public interface IAgent
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/Compat/TeamsSSOTokenExchangeMiddleware.cs:35:    public class TeamsSSOTokenExchangeMiddleware : IMiddleware
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/Compat/ActivityHandler.cs:24:    public class ActivityHandler : IAgent
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/Compat/NormalizeMentionsMiddleware.cs:19:    public class NormalizeMentionsMiddleware : IMiddleware
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/Compat/AutoSaveStateMiddleware.cs:17:    public class AutoSaveStateMiddleware : IMiddleware
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/Compat/ShowTypingMiddleware.cs:22:    public class ShowTypingMiddleware : IMiddleware
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/TurnContextStateCollection.cs:13:    public class TurnContextStateCollection : ConcurrentDictionary<string, object>, IDisposable
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IAgentExtension.cs:12:    public interface IAgentExtension
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/ITurnContext.cs:86:    public interface ITurnContext<T> : ITurnContext
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/ITurnContext.cs:103:    public interface ITurnContext
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IMiddleware.cs:34:    public interface IMiddleware
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/OBOSettings.cs:8:    public class OBOSettings
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/SignInResponse.cs:16:    public class SignInResponse(SignInStatus status)
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/AgenticAuth/AgenticUserAuthorization.cs:21:    public class AgenticUserAuthorization : IUserAuthorization
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/AgenticAuth/AgenticAuthSettings.cs:11:    public class AgenticAuthSettings
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/AuthException.cs:11:    public enum AuthExceptionReason
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/IUserAuthorization.cs:14:    public interface IUserAuthorization
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/SignInStatus.cs:9:    public enum SignInStatus
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/TokenService/UserTokenClientWrapper.cs:14:    public class UserTokenClientWrapper
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/TokenService/AzureBotUserAuthorization.cs:18:    public class AzureBotUserAuthorization : OBOExchange, IUserAuthorization
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/TokenService/OAuthFlow.cs:40:    public class OAuthFlow(OAuthSettings settings)
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/TokenService/OAuthSettings.cs:12:    public class OAuthSettings : OBOSettings
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/UserAuth/Connector/ConnectorUserAuthorization.cs:21:    public class ConnectorUserAuthorization : OBOExchange, IUserAuthorization
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/M365AttachmentDownloader.cs:21:    public class M365AttachmentDownloader : IInputFileDownloader
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/M365AttachmentDownloader.cs:157:    public class M365AttachmentDownloaderOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/IInputFileDownloader.cs:14:    public interface IInputFileDownloader
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/InputFile.cs:11:    public class InputFile
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/RouteAttribute.cs:11:    public enum RouteType
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/RouteAttribute.cs:37:    public class RouteAttribute : Attribute, IRouteAttribute
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/ConversationUpdateEvents.cs:9:    public class ConversationUpdateEvents
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AgentApplicationOptions.cs:48:    public class AgentApplicationOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AgenticAuthorization.cs:16:    public class AgenticAuthorization
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AgentApplication.cs:27:    public class AgentApplication : IAgent
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/FeedbackData.cs:9:    public class FeedbackData
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/FeedbackData.cs:30:    public class FeedbackActionValue
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/UserAuth/UserAuthorizationOptions.cs:32:    public class UserAuthorizationOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/UserAuth/UserAuthorization.cs:31:    public class UserAuthorization
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AgentApplicationBuilder.cs:16:    public class AgentApplicationBuilder
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AdaptiveCards/AdaptiveCard.cs:18:    public class AdaptiveCardsInvokeNames
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AdaptiveCards/AdaptiveCard.cs:29:    public class AdaptiveCard
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AdaptiveCards/Query.cs:10:    public class Query<TParams>
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AdaptiveCards/AdaptiveCardsOptions.cs:9:    public class AdaptiveCardsOptions
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AdaptiveCards/AdaptiveCardsHandlers.cs:20:    public class AdaptiveCardsSearchParams(string queryText, string dataset)
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AdaptiveCards/AdaptiveCardsHandlers.cs:41:    public class AdaptiveCardsSearchResult(string title, string value)
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/AttachmentDownloader.cs:14:    public class AttachmentDownloader : IInputFileDownloader
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/App/MultipleRouteSelector.cs:11:    public class MultipleRouteSelector
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/IChannelAdapter.cs:23:    public interface IChannelAdapter
+agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/TurnContext.cs:25:    public class TurnContext : ITurnContext, IDisposable

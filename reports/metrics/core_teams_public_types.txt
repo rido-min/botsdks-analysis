@@ -1,0 +1,82 @@
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/Schema/CoreActivity.cs:13:public class ExtendedPropertiesDictionary : Dictionary<string, object?> { }
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/Schema/CoreActivity.cs:24:public class CoreActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/Schema/ChannelData.cs:14:public class ChannelData
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/Schema/ConversationAccount.cs:13:public class ConversationAccount()
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/Schema/CoreActivityBuilder.cs:180:public class CoreActivityBuilder : CoreActivityBuilder<CoreActivity, CoreActivityBuilder>
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/Schema/Conversation.cs:9:public class Conversation()
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/Http/BotHttpClient.cs:20:public class BotHttpClient(HttpClient httpClient, ILogger? logger = null)
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/BotHandlerException.cs:14:public class BotHandlerException : Exception
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/UserTokenClient.Models.cs:10:public class GetTokenStatusResult
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/UserTokenClient.Models.cs:29:public class GetTokenResult
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/UserTokenClient.Models.cs:44:public class GetSignInResourceResult
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/UserTokenClient.Models.cs:63:public class TokenPostResource
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/UserTokenClient.Models.cs:74:public class TokenExchangeResource
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:11:public class SendActivityResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:23:public class UpdateActivityResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:35:public class DeleteActivityResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:47:public class GetConversationsResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:67:public class ConversationMembers
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:87:public class ConversationParameters
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:137:public class CreateConversationResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:161:public class PagedMembersResult
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:181:public class Transcript
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:195:public class SendConversationHistoryResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:207:public class AttachmentData
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.Models.cs:241:public class UploadAttachmentResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ConversationClient.cs:19:public class ConversationClient(HttpClient httpClient, ILogger<ConversationClient> logger = default!)
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/UserTokenClient.cs:25:public class UserTokenClient(HttpClient httpClient, IConfiguration configuration, ILogger<UserTokenClient> logger)
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/ITurnMiddleWare.cs:23:public interface ITurnMiddleWare
+core-teams.net/core/src/Microsoft.Teams.Bot.Core/BotApplication.cs:17:public class BotApplication
+core-teams.net/core/src/Microsoft.Teams.Bot.Compat/CompatAdapter.cs:24:public class CompatAdapter : IBotFrameworkHttpAdapter
+core-teams.net/core/src/Microsoft.Teams.Bot.Compat/CompatBotAdapter.cs:27:public class CompatBotAdapter(TeamsBotApplication botApplication, IHttpContextAccessor httpContextAccessor = default!, ILogger<CompatBotAdapter> logger = default!) : BotAdapter
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsConversationAccount.cs:17:public class TeamsConversationAccount : ConversationAccount
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsActivityBuilder.cs:12:public class TeamsActivityBuilder : CoreActivityBuilder<TeamsActivity, TeamsActivityBuilder>
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsChannelData.cs:13:public class TeamsChannelData : ChannelData
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/OMessageEntity.cs:12:    public class OMessageEntity : Entity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/SensitiveUsageEntity.cs:12:public class SensitiveUsageEntity : OMessageEntity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/SensitiveUsageEntity.cs:53:public class DefinedTerm
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/ClientInfoEntity.cs:55:public class ClientInfoEntity : Entity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/Entity.cs:16:public class EntityList : List<Entity>
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/Entity.cs:89:public class Entity(string type)
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/Entity.cs:118:public class EntityListJsonConverter : JsonConverter<EntityList>
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/MentionEntity.cs:61:public class MentionEntity : Entity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/ProductInfoEntity.cs:14:public class ProductInfoEntity : Entity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Entities/StreamInfoEntity.cs:11:public class StreamInfoEntity : Entity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/MessageActivities/MessageActivity.cs:13:public class MessageActivity : TeamsActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/MessageActivities/MessageReactionActivity.cs:15:public class MessageReactionActivity : TeamsActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/MessageActivities/MessageReactionActivity.cs:87:public class MessageReaction
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/MessageActivities/MessageReactionActivity.cs:111:public class ReactionUser
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/MessageActivities/MessageUpdateActivity.cs:13:public class MessageUpdateActivity : MessageActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/MessageActivities/InvokeActivity.cs:12:public class InvokeActivity : TeamsActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/MessageActivities/MessageDeleteActivity.cs:13:public class MessageDeleteActivity : TeamsActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsActivity.cs:17:public class TeamsActivity : CoreActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsChannelDataSettings.cs:12:public class TeamsChannelDataSettings
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsChannelDataTenant.cs:11:public class TeamsChannelDataTenant
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsAttachment.cs:32:public class TeamsAttachment
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/Team.cs:11:    public class Team
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsAttachmentBuilder.cs:9:public class TeamsAttachmentBuilder
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsConversation.cs:29:public class TeamsConversation : Conversation
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Schema/TeamsChannel.cs:14:public class TeamsChannel
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Routing/Router.cs:12:public class Router
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Routing/Route.cs:46:public class Route<TActivity> : RouteBase where TActivity : TeamsActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsBotApplication.cs:20:public class TeamsBotApplication : BotApplication
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:13:public class ChannelList
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:27:public class TeamDetails
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:69:public class MeetingInfo
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:99:public class MeetingDetails
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:147:public class MeetingParticipant
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:171:public class MeetingParticipantInfo
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:201:public class TargetedMeetingNotification : MeetingNotificationBase
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:217:public class TargetedMeetingNotificationValue
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:239:public class MeetingNotificationSurface
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:263:public class MeetingNotificationResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:277:public class MeetingNotificationRecipientFailureInfo
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:301:public class TeamMember
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:329:public class BatchOperationState
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:359:public class BatchOperationStatusMap
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:389:public class BatchFailedEntriesResponse
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.Models.cs:409:public class BatchFailedEntry
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Handlers/InvokeHandler.cs:58:public class CoreInvokeResponse(int status, object? body = null)
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsApiClient.cs:19:public class TeamsApiClient(HttpClient httpClient, ILogger<TeamsApiClient> logger = default!)
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/Context.cs:18:public class Context<TActivity>(TeamsBotApplication botApplication, TActivity activity) where TActivity : TeamsActivity
+core-teams.net/core/src/Microsoft.Teams.Bot.Apps/TeamsBotApplicationBuilder.cs:17:public class TeamsBotApplicationBuilder

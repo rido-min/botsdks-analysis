@@ -1,0 +1,586 @@
+teams.net/Libraries/Microsoft.Teams.Apps/Response.cs:14:public class Response<T> : Response where T : notnull
+teams.net/Libraries/Microsoft.Teams.Apps/Response.cs:34:public class Response
+teams.net/Libraries/Microsoft.Teams.Apps/Response.cs:85:    public class MetaData : IDictionary<string, object?>
+teams.net/Libraries/Microsoft.Teams.Apps/Events/ActivityEvent.cs:10:public class ActivityEvent : Event
+teams.net/Libraries/Microsoft.Teams.Apps/Events/Event.cs:14:public class Event : Dictionary<string, object>
+teams.net/Libraries/Microsoft.Teams.Apps/Events/Event.cs:33:public class EventAttribute(string name) : Attribute
+teams.net/Libraries/Microsoft.Teams.Apps/Events/ActivityResponseEvent.cs:8:public class ActivityResponseEvent : Event
+teams.net/Libraries/Microsoft.Teams.Apps/Events/SignInEvent.cs:9:public class SignInEvent : Event
+teams.net/Libraries/Microsoft.Teams.Apps/Events/ActivitySentEvent.cs:9:public class ActivitySentEvent : Event
+teams.net/Libraries/Microsoft.Teams.Apps/Events/ErrorEvent.cs:9:public class ErrorEvent : Event
+teams.net/Libraries/Microsoft.Teams.Apps/Events/EventType.cs:8:public class EventType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Apps/Annotations/TeamsControllerAttribute.cs:8:public class TeamsControllerAttribute(string? name = null) : Attribute
+teams.net/Libraries/Microsoft.Teams.Apps/Annotations/ContextAttribute.cs:18:public class ContextAttribute : ContextAccessorAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Routing/Router.cs:8:public interface IRouter
+teams.net/Libraries/Microsoft.Teams.Apps/Routing/Router.cs:18:public class Router : IRouter
+teams.net/Libraries/Microsoft.Teams.Apps/Routing/Route.cs:13:public interface IRoute
+teams.net/Libraries/Microsoft.Teams.Apps/Routing/Route.cs:22:public class Route : IRoute
+teams.net/Libraries/Microsoft.Teams.Apps/Routing/Route.cs:33:public class AttributeRoute : IRoute
+teams.net/Libraries/Microsoft.Teams.Apps/Routing/Route.cs:72:    public class ValidationResult
+teams.net/Libraries/Microsoft.Teams.Apps/Routing/RouteType.cs:6:public enum RouteType
+teams.net/Libraries/Microsoft.Teams.Apps/AppOptions.cs:8:public class AppOptions
+teams.net/Libraries/Microsoft.Teams.Apps/Status.cs:7:public enum Status
+teams.net/Libraries/Microsoft.Teams.Apps/Plugins/PluginAttribute.cs:7:public class PluginAttribute(params string[] description) : Attribute
+teams.net/Libraries/Microsoft.Teams.Apps/Plugins/Streamer.cs:11:public interface IStreamer
+teams.net/Libraries/Microsoft.Teams.Apps/Plugins/SenderPlugin.cs:13:public interface ISenderPlugin : IPlugin
+teams.net/Libraries/Microsoft.Teams.Apps/Plugins/Plugin.cs:12:public interface IPlugin
+teams.net/Libraries/Microsoft.Teams.Apps/Plugins/DependencyAttribute.cs:7:public class DependencyAttribute : Attribute
+teams.net/Libraries/Microsoft.Teams.Apps/Contexts/Client/ClientContext.cs:9:public interface IClientContext
+teams.net/Libraries/Microsoft.Teams.Apps/Contexts/Client/ClientContext.cs:86:public class ClientContext : IClientContext
+teams.net/Libraries/Microsoft.Teams.Apps/Contexts/Client/FunctionContext.cs:16:public interface IFunctionContext<T> : IClientContext
+teams.net/Libraries/Microsoft.Teams.Apps/Contexts/Client/FunctionContext.cs:56:public class FunctionContext<T>(App app) : ClientContext, IFunctionContext<T>
+teams.net/Libraries/Microsoft.Teams.Apps/Contexts/Context.Accessor.cs:15:    public class Accessor
+teams.net/Libraries/Microsoft.Teams.Apps/Contexts/Context.SignIn.cs:200:public class OAuthOptions : SignInOptions
+teams.net/Libraries/Microsoft.Teams.Apps/Contexts/Context.SignIn.cs:212:public class SSOOptions : SignInOptions
+teams.net/Libraries/Microsoft.Teams.Apps/Contexts/Context.Client.cs:14:    public class Client(IContext<IActivity> context)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Messages/MessageActivity.cs:12:public class MessageAttribute : ActivityAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Messages/MessageReactionActivity.cs:12:    public class ReactionAttribute() : ActivityAttribute(ActivityType.MessageReaction, typeof(MessageReactionActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Messages/MessageReactionActivity.cs:18:    public class ReactionAddedAttribute() : ReactionAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Messages/MessageReactionActivity.cs:32:    public class ReactionRemovedAttribute() : ReactionAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Messages/MessageUpdateActivity.cs:12:    public class UpdateAttribute() : ActivityAttribute(ActivityType.MessageUpdate, typeof(MessageUpdateActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Messages/MessageDeleteActivity.cs:12:    public class DeleteAttribute() : ActivityAttribute(ActivityType.MessageDelete, typeof(MessageDeleteActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Events/EventActivity.cs:11:public class EventAttribute : ActivityAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Events/MeetingJoinActivity.cs:13:    public class MeetingJoinAttribute() : EventAttribute(Api.Activities.Events.Name.MeetingParticipantJoin)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Events/MeetingStartActivity.cs:13:    public class MeetingStartAttribute() : EventAttribute(Api.Activities.Events.Name.MeetingStart)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Events/MeetingEndActivity.cs:13:    public class MeetingEndAttribute() : EventAttribute(Api.Activities.Events.Name.MeetingEnd)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Events/ReadReceiptActivity.cs:13:    public class ReadReceiptAttribute() : EventAttribute(Api.Activities.Events.Name.ReadReceipt)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Events/MeetingLeaveActivity.cs:13:    public class MeetingLeaveAttribute() : EventAttribute(Api.Activities.Events.Name.MeetingParticipantLeave)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/TeamRenamedActivity.cs:12:    public class TeamRenamedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.TeamRenamed)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/TeamUnArchivedActivity.cs:12:    public class TeamUnArchivedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.TeamUnarchived)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ChannelMemberAddedActivity.cs:9:    public class ChannelMemberAddedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.ChannelMemberAdded)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ConversationUpdateActivity.cs:12:    public class UpdateAttribute : ActivityAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/MembersRemovedActivity.cs:12:    public class MembersRemovedAttribute() : UpdateAttribute()
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/TeamArchivedActivity.cs:12:    public class TeamArchivedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.TeamArchived)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ChannelMemberRemovedActivity.cs:9:    public class ChannelMemberRemovedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.ChannelMemberRemoved)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ChannelRenamedActivity.cs:12:    public class ChannelRenamedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.ChannelRenamed)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ChannelUnsharedActivity.cs:9:    public class ChannelUnSharedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.ChannelUnShared)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/MembersAddedActivity.cs:12:    public class MembersAddedAttribute() : UpdateAttribute()
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ChannelSharedActivity.cs:9:    public class ChannelSharedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.ChannelShared)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ChannelRestoredActivity.cs:12:    public class ChannelRestoredAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.ChannelRestored)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ConversationEndActivity.cs:12:    public class EndAttribute() : ActivityAttribute(ActivityType.EndOfConversation, typeof(EndOfConversationActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/TeamRestoredActivity.cs:12:    public class TeamRestoredAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.TeamRestored)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ChannelDeletedActivity.cs:12:    public class ChannelDeletedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.ChannelDeleted)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/TeamDeletedActivity.cs:12:    public class TeamDeletedAttribute(bool hard = false) : UpdateAttribute(hard ? ConversationUpdateActivity.EventType.TeamHardDeleted : ConversationUpdateActivity.EventType.TeamDeleted)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Conversations/ChannelCreatedActivity.cs:12:    public class ChannelCreatedAttribute() : UpdateAttribute(ConversationUpdateActivity.EventType.ChannelCreated)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/CommandActivity.cs:10:public class CommandAttribute() : ActivityAttribute(ActivityType.Command, type: typeof(CommandActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Messages/FeedbackActivity.cs:16:    public class FeedbackAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Messages.SubmitAction, typeof(Messages.SubmitActionActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Messages/SubmitActionActivity.cs:13:    public class SubmitActionAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Messages.SubmitAction, typeof(Messages.SubmitActionActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/FileConsentActivity.cs:11:public class FileConsentAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.FileConsent, typeof(FileConsentActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/HandoffActivity.cs:11:public class HandoffAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Handoff, typeof(HandoffActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Configs/FetchActivity.cs:14:    public class FetchAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Configs.Fetch, typeof(Configs.FetchActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Configs/SubmitActivity.cs:14:    public class SubmitAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Configs.Submit, typeof(Configs.SubmitActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/SignIn/VerifyStateAcitivity.cs:11:public class VerifyStateAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.SignIn.VerifyState, typeof(SignIn.VerifyStateActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/SignIn/TokenExchangeActivity.cs:11:public class TokenExchangeAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.SignIn.TokenExchange, typeof(SignIn.TokenExchangeActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/InvokeActivity.cs:11:public class InvokeAttribute : ActivityAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Search/SearchActivity.cs:9:public class SearchAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Search, typeof(SearchActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Search/TypeaheadSearchActivity.cs:11:    public class Typeahead() : SearchAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Search/AnswerSearchActivity.cs:11:    public class Answer() : SearchAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/QuerySettingsUrlActivity.cs:13:    public class QuerySettingsUrlAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.QuerySettingUrl, typeof(MessageExtensions.QuerySettingUrlActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/AnonQueryLinkActivity.cs:13:    public class AnonQueryLinkAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.AnonQueryLink, typeof(MessageExtensions.AnonQueryLinkActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/SubmitActionActivity.cs:13:    public class SubmitActionAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.SubmitAction, typeof(MessageExtensions.SubmitActionActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/FetchTaskActivity.cs:13:    public class FetchTaskAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.FetchTask, typeof(MessageExtensions.FetchTaskActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/QueryActivity.cs:13:    public class QueryAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.Query, typeof(MessageExtensions.QueryActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/QueryLinkActivity.cs:13:    public class QueryLinkAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.QueryLink, typeof(MessageExtensions.QueryLinkActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/SelectItemActivity.cs:13:    public class SelectItemAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.SelectItem, typeof(MessageExtensions.SelectItemActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/CardButtonClickedActivity.cs:13:    public class CardButtonClickedAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.CardButtonClicked, typeof(MessageExtensions.CardButtonClickedActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/MessageExtensions/SettingsActivity.cs:13:    public class SettingAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.MessageExtensions.Setting, typeof(MessageExtensions.SettingActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Tasks/FetchActivity.cs:11:public class TaskFetchAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Tasks.Fetch, typeof(Tasks.FetchActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Tasks/SubmitActivity.cs:11:public class TaskSubmitAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Tasks.Submit, typeof(Tasks.SubmitActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/ExecuteActionActivity.cs:11:public class ExecuteActionAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.ExecuteAction, typeof(ExecuteActionActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/AdaptiveCards/ActionActivity.cs:14:    public class ActionAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.AdaptiveCards.Action, typeof(AdaptiveCards.ActionActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Tabs/FetchActivity.cs:13:    public class FetchAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Tabs.Fetch, typeof(Tabs.FetchActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Invokes/Tabs/SubmitActivity.cs:13:    public class SubmitAttribute() : InvokeAttribute(Api.Activities.Invokes.Name.Tabs.Submit, typeof(Tabs.SubmitActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/TypingActivity.cs:10:public class TypingAttribute() : ActivityAttribute(ActivityType.Typing, typeof(TypingActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Installs/InstallUpdateActivity.cs:10:public class InstallUpdateAttribute : ActivityAttribute
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Installs/InstallActivity.cs:10:public class InstallAttribute() : InstallUpdateAttribute(InstallUpdateAction.Add)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Installs/UnInstallActivity.cs:10:public class UnInstallAttribute() : InstallUpdateAttribute(InstallUpdateAction.Remove)
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/CommandResultActivity.cs:10:public class CommandResultAttribute() : ActivityAttribute(ActivityType.CommandResult, typeof(CommandResultActivity))
+teams.net/Libraries/Microsoft.Teams.Apps/Activities/Activity.cs:10:public class ActivityAttribute(string? name = null, Type? type = null) : Attribute
+teams.net/Libraries/Microsoft.Teams.Apps/OAuthSettings.cs:4:public class OAuthSettings(string? connectionName = "graph")
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.External/Microsoft.Teams.Plugins.External.McpClient/McpClientPluginOptions.cs:5:public class McpClientPluginOptions
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.External/Microsoft.Teams.Plugins.External.McpClient/McpClientPluginParams.cs:3:public class McpClientPluginParams
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.External/Microsoft.Teams.Plugins.External.McpClient/McpClientPluginParams.cs:31:public enum McpClientTransport
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.External/Microsoft.Teams.Plugins.External.McpClient/McpToolDetails.cs:5:public class McpToolDetails
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.External/Microsoft.Teams.Plugins.External.McpClient/McpCachedValue.cs:8:public class McpCachedValue
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.External/Microsoft.Teams.Plugins.External.McpClient/McpClientPlugin.cs:12:public class McpClientPlugin : BaseChatPlugin
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.External/Microsoft.Teams.Plugins.External.Mcp/McpPlugin.cs:20:public class McpPlugin : IAspNetCorePlugin
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.BotBuilder/Controllers/MessageController.cs:14:    public class MessageController : ControllerBase
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore/Extensions/TeamsValidationSettings.cs:3:public class TeamsValidationSettings
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore/IAspNetCorePlugin.cs:9:public interface IAspNetCorePlugin : IPlugin
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore/AspNetCorePlugin.Stream.cs:17:    public class Stream : IStreamer
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/Events/ActivityEvent.cs:11:public class ActivityEvent : IEvent
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/Events/MetaDataEvent.cs:10:public class MetaDataEvent : IEvent
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/Models/Page.cs:12:public class Page
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/Models/MetaData.cs:8:public class MetaData
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/Controllers/ActivityController.cs:20:public class ActivityController : ControllerBase
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/Controllers/DevToolsController.cs:18:public class DevToolsController : ControllerBase
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/Event.cs:9:public interface IEvent
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/WebSocketCollection.cs:11:public class WebSocketCollection : IEnumerable<KeyValuePair<string, WebSocket>>
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/TeamsDevToolsSettings.cs:8:public class TeamsDevToolsSettings
+teams.net/Libraries/Microsoft.Teams.Plugins/Microsoft.Teams.Plugins.AspNetCore.DevTools/DevToolsPlugin.cs:25:public class DevToolsPlugin : IAspNetCorePlugin
+teams.net/Libraries/Microsoft.Teams.Api/FileConsentCard.cs:12:public class FileConsentCard
+teams.net/Libraries/Microsoft.Teams.Api/FileConsentCard.cs:52:public class FileConsentCardResponse
+teams.net/Libraries/Microsoft.Teams.Api/TaskModules/Response.cs:11:public class Response
+teams.net/Libraries/Microsoft.Teams.Api/TaskModules/Task.cs:37:public class TaskJsonConverter : JsonConverter<Task>
+teams.net/Libraries/Microsoft.Teams.Api/TaskModules/TaskInfo.cs:30:public class TaskInfo
+teams.net/Libraries/Microsoft.Teams.Api/TaskModules/MessageTask.cs:19:public class MessageTask(string? value) : Task(TaskType.Message)
+teams.net/Libraries/Microsoft.Teams.Api/TaskModules/ContinueTask.cs:19:public class ContinueTask(TaskInfo? value) : Task(TaskType.Continue)
+teams.net/Libraries/Microsoft.Teams.Api/TaskModules/Request.cs:11:public class Request
+teams.net/Libraries/Microsoft.Teams.Api/TaskModules/Request.cs:31:public class RequestContext
+teams.net/Libraries/Microsoft.Teams.Api/Messages/User.cs:16:public class UserIdentityType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Messages/User.cs:34:public class User
+teams.net/Libraries/Microsoft.Teams.Api/Messages/Mention.cs:11:public class Mention
+teams.net/Libraries/Microsoft.Teams.Api/Messages/Body.cs:11:public class Body
+teams.net/Libraries/Microsoft.Teams.Api/Messages/From.cs:12:public class From
+teams.net/Libraries/Microsoft.Teams.Api/Messages/Message.cs:12:public class Message
+teams.net/Libraries/Microsoft.Teams.Api/Messages/Conversation.cs:16:public class ConversationIdentityType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Messages/Conversation.cs:28:public class Conversation
+teams.net/Libraries/Microsoft.Teams.Api/Messages/Reaction.cs:16:public class ReactionType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Messages/Reaction.cs:43:public class Reaction
+teams.net/Libraries/Microsoft.Teams.Api/Messages/App.cs:16:public class AppIdentityType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Messages/App.cs:37:public class App
+teams.net/Libraries/Microsoft.Teams.Api/InputHint.cs:11:public class InputHint(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Entities/OMessageEntity.cs:10:public class OMessageEntity : Entity, IMessageEntity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/OMessageEntity.cs:22:    public class OMessageJsonConverter : JsonConverter<OMessageEntity>
+teams.net/Libraries/Microsoft.Teams.Api/Entities/CitationEntity.cs:10:public class CitationEntity : OMessageEntity, IMessageEntity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/CitationEntity.cs:37:    public class Claim
+teams.net/Libraries/Microsoft.Teams.Api/Entities/CitationEntity.cs:52:    public class AppearanceDocument
+teams.net/Libraries/Microsoft.Teams.Api/Entities/CitationEntity.cs:90:        public class ImageObject
+teams.net/Libraries/Microsoft.Teams.Api/Entities/CitationEntity.cs:104:public class CitationIcon(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Entities/CitationEntity.cs:170:public class CitationAppearance
+teams.net/Libraries/Microsoft.Teams.Api/Entities/SensitiveUsageEntity.cs:8:public class SensitiveUsageEntity : OMessageEntity, IMessageEntity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/SensitiveUsageEntity.cs:28:public class DefinedTerm
+teams.net/Libraries/Microsoft.Teams.Api/Entities/ClientInfoEntity.cs:8:public class ClientInfoEntity : Entity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/Entity.cs:13:public interface IEntity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/Entity.cs:30:    public class JsonConverter : JsonConverter<IEntity>
+teams.net/Libraries/Microsoft.Teams.Api/Entities/Entity.cs:50:public class Entity : IEntity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/Entity.cs:90:    public class JsonConverter : JsonConverter<Entity>
+teams.net/Libraries/Microsoft.Teams.Api/Entities/Entity.cs:169:public class EntityJsonConverter : JsonConverterFactory
+teams.net/Libraries/Microsoft.Teams.Api/Entities/MentionEntity.cs:8:public class MentionEntity : Entity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/ProductInfoEntity.cs:8:public class ProductInfoEntity : Entity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/StreamInfoEntity.cs:8:public class StreamInfoEntity : Entity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/StreamInfoEntity.cs:26:public class StreamType(string value) : Common.StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Entities/MessageEntity.cs:10:public interface IMessageEntity : IEntity
+teams.net/Libraries/Microsoft.Teams.Api/Entities/MessageEntity.cs:16:    public class IMessageJsonConverter : JsonConverter<IMessageEntity>
+teams.net/Libraries/Microsoft.Teams.Api/Entities/MessageEntity.cs:66:public class MessageEntity : Entity, IMessageEntity
+teams.net/Libraries/Microsoft.Teams.Api/CacheInfo.cs:11:public class CacheInfo
+teams.net/Libraries/Microsoft.Teams.Api/Attachment.cs:13:public class Attachment
+teams.net/Libraries/Microsoft.Teams.Api/Attachment.cs:127:    public class Layout(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Tenant.cs:11:public class Tenant
+teams.net/Libraries/Microsoft.Teams.Api/Resource.cs:11:public class Resource
+teams.net/Libraries/Microsoft.Teams.Api/Cards/Image.cs:11:public class Image
+teams.net/Libraries/Microsoft.Teams.Api/Cards/MediaCard.cs:11:public class MediaCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Cards/HeroCard.cs:11:public class HeroCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Cards/AudioCard.cs:11:public class AudioCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Cards/BasicCard.cs:11:public class BasicCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Cards/VideoCard.cs:11:public class VideoCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Cards/SignInCard.cs:9:public class SignInCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Cards/OAuthCard.cs:11:public class OAuthCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Cards/Action.cs:11:public class ActionType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Cards/Action.cs:41:public class Action(ActionType type)
+teams.net/Libraries/Microsoft.Teams.Api/Cards/ThumbnailCard.cs:11:public class ThumbnailCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Cards/AnimationCard.cs:11:public class AnimationCard : Card
+teams.net/Libraries/Microsoft.Teams.Api/Clients/BotSignInClient.cs:8:public class BotSignInClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/BotSignInClient.cs:52:    public class GetUrlRequest
+teams.net/Libraries/Microsoft.Teams.Api/Clients/BotSignInClient.cs:60:    public class GetResourceRequest
+teams.net/Libraries/Microsoft.Teams.Api/Clients/BotTokenClient.cs:8:public class BotTokenClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/MeetingClient.cs:11:public class MeetingClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/MeetingClient.cs:53:public class MeetingParticipant
+teams.net/Libraries/Microsoft.Teams.Api/Clients/MeetingClient.cs:77:public class MeetingInfo
+teams.net/Libraries/Microsoft.Teams.Api/Clients/ActivityClient.cs:11:public class ActivityClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/TeamClient.cs:8:public class TeamClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/ApiClient.cs:8:public class ApiClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/MemberClient.cs:8:public class MemberClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/UserClient.cs:8:public class UserClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/ConversationClient.cs:11:public class ConversationClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/ConversationClient.cs:52:    public class CreateRequest
+teams.net/Libraries/Microsoft.Teams.Api/Clients/BotClient.cs:8:public class BotClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/UserTokenClient.cs:11:public class UserTokenClient : Client
+teams.net/Libraries/Microsoft.Teams.Api/Clients/UserTokenClient.cs:89:    public class GetTokenRequest
+teams.net/Libraries/Microsoft.Teams.Api/Clients/UserTokenClient.cs:108:    public class GetAadTokenRequest
+teams.net/Libraries/Microsoft.Teams.Api/Clients/UserTokenClient.cs:127:    public class GetTokenStatusRequest
+teams.net/Libraries/Microsoft.Teams.Api/Clients/UserTokenClient.cs:142:    public class SignOutRequest
+teams.net/Libraries/Microsoft.Teams.Api/Clients/UserTokenClient.cs:157:    public class ExchangeTokenRequest
+teams.net/Libraries/Microsoft.Teams.Api/Commands/Context.cs:15:public class Context(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/MediaUrl.cs:11:public class MediaUrl
+teams.net/Libraries/Microsoft.Teams.Api/SuggestedActions.cs:8:public class SuggestedActions
+teams.net/Libraries/Microsoft.Teams.Api/Memberships/MembershipSource.cs:8:public class MembershipSource
+teams.net/Libraries/Microsoft.Teams.Api/Memberships/MembershipType.cs:11:public class MembershipType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Memberships/MembershipSourceType.cs:11:public class MembershipSourceType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Channel.cs:11:public class Channel
+teams.net/Libraries/Microsoft.Teams.Api/Channel.cs:36:public class ChannelType(string value) : Common.StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/TokenExchange/Resource.cs:11:public class Resource
+teams.net/Libraries/Microsoft.Teams.Api/TokenExchange/InvokeResponse.cs:11:public class InvokeResponse
+teams.net/Libraries/Microsoft.Teams.Api/TokenExchange/State.cs:11:public class State
+teams.net/Libraries/Microsoft.Teams.Api/TokenExchange/InvokeRequest.cs:11:public class InvokeRequest
+teams.net/Libraries/Microsoft.Teams.Api/TokenExchange/Request.cs:11:public class Request
+teams.net/Libraries/Microsoft.Teams.Api/AspectRatio.cs:11:public class AspectRatio(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/FileUploadInfo.cs:12:public class FileUploadInfo
+teams.net/Libraries/Microsoft.Teams.Api/SignIn/StateVerifyQuery.cs:11:public class StateVerifyQuery
+teams.net/Libraries/Microsoft.Teams.Api/SignIn/ExchangeToken.cs:11:public class ExchangeToken
+teams.net/Libraries/Microsoft.Teams.Api/SignIn/UrlResponse.cs:11:public class UrlResponse
+teams.net/Libraries/Microsoft.Teams.Api/Search/SearchResponse.cs:9:public class SearchResponse()
+teams.net/Libraries/Microsoft.Teams.Api/Search/SearchValue.cs:9:public class SearchValue
+teams.net/Libraries/Microsoft.Teams.Api/Search/SearchOptions.cs:8:public class SearchOptions
+teams.net/Libraries/Microsoft.Teams.Api/Search/SearchType.cs:8:public class SearchType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Response.cs:11:public class Response
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Attachment.cs:11:public class Attachment : Api.Attachment
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/SuggestedActions.cs:11:public class SuggestedActions
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Query.cs:11:public class Query
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Query.cs:45:    public class Options
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/ActionResponse.cs:11:public class ActionResponse : TaskModules.Response
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Result.cs:14:public class ResultType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Result.cs:38:public class Result
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Action.cs:15:public class MessagePreviewAction(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Action.cs:27:public class Action : TaskModules.Request
+teams.net/Libraries/Microsoft.Teams.Api/MessageExtensions/Parameter.cs:11:public class Parameter
+teams.net/Libraries/Microsoft.Teams.Api/Config/ConfigAuthResponse.cs:6:public class ConfigAuthResponse(ConfigAuth auth) : ConfigResponse<ConfigAuth>(auth)
+teams.net/Libraries/Microsoft.Teams.Api/Config/ConfigResponse.cs:8:public class ConfigResponse
+teams.net/Libraries/Microsoft.Teams.Api/Config/ConfigResponse.cs:41:public class ConfigResponse<T>(T config) : ConfigResponse where T : notnull
+teams.net/Libraries/Microsoft.Teams.Api/Config/ConfigAuth.cs:8:public class ConfigAuth
+teams.net/Libraries/Microsoft.Teams.Api/Config/ConfigTaskResponse.cs:6:public class ConfigTaskResponse(TaskModules.Task task) : ConfigResponse<TaskModules.Task>(task)
+teams.net/Libraries/Microsoft.Teams.Api/TextFormat.cs:11:public class TextFormat(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/O365/ConnectorCardActionQuery.cs:12:public class ConnectorCardActionQuery
+teams.net/Libraries/Microsoft.Teams.Api/Importance.cs:11:public class Importance(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/DeliveryMode.cs:11:public class DeliveryMode(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/ThumbnailUrl.cs:11:public class ThumbnailUrl
+teams.net/Libraries/Microsoft.Teams.Api/ChannelData.cs:14:public class ChannelData
+teams.net/Libraries/Microsoft.Teams.Api/ChannelData.cs:141:public class ChannelDataSettings
+teams.net/Libraries/Microsoft.Teams.Api/Error.cs:8:public class Error
+teams.net/Libraries/Microsoft.Teams.Api/Error.cs:23:public class InnerHttpError
+teams.net/Libraries/Microsoft.Teams.Api/ChannelId.cs:11:public class ChannelId(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/EventActivity.cs:17:public interface IEventActivity : IActivity
+teams.net/Libraries/Microsoft.Teams.Api/Activities/InstallUpdateActivity.cs:16:public class InstallUpdateActivity() : Activity(ActivityType.InstallUpdate)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/InstallUpdateActivity.cs:29:public class InstallUpdateAction(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingStartActivity.cs:16:public class MeetingStartActivity() : EventActivity(Name.MeetingStart)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingStartActivity.cs:29:public class MeetingStartActivityValue
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingEndActivity.cs:16:public class MeetingEndActivity() : EventActivity(Name.MeetingEnd)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingEndActivity.cs:29:public class MeetingEndActivityValue
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingParticipantLeaveActivity.cs:16:public class MeetingParticipantLeaveActivity() : EventActivity(Name.MeetingParticipantLeave)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingParticipantLeaveActivity.cs:29:public class MeetingParticipantLeaveActivityValue
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingParticipantLeaveActivity.cs:38:    public class Member
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingParticipantLeaveActivity.cs:55:    public class Meeting
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/ReadReceiptActivity.cs:14:public class ReadReceiptActivity() : EventActivity(Name.ReadReceipt)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingParticipantJoinActivity.cs:16:public class MeetingParticipantJoinActivity() : EventActivity(Name.MeetingParticipantJoin)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingParticipantJoinActivity.cs:29:public class MeetingParticipantJoinActivityValue
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingParticipantJoinActivity.cs:38:    public class Member
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Events/MeetingParticipantJoinActivity.cs:55:    public class Meeting
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Message/MessageActivity.cs:17:public class MessageActivity : Activity
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Message/MessageReactionActivity.cs:16:public class MessageReactionActivity() : Activity(ActivityType.MessageReaction)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Message/MessageUpdateActivity.cs:14:public class MessageUpdateActivity : MessageActivity
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Message/MessageDeleteActivity.cs:14:public class MessageDeleteActivity() : Activity(ActivityType.MessageDelete)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Command/CommandActivity.cs:16:public class CommandActivity() : Activity(ActivityType.Command)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Command/CommandActivity.cs:37:public class CommandValue
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Command/CommandResultActivity.cs:19:public class CommandResultActivity() : Activity(ActivityType.CommandResult)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Command/CommandResultActivity.cs:41:public class CommandResultValue
+teams.net/Libraries/Microsoft.Teams.Api/Activities/InvokeActivity.cs:16:public interface IInvokeActivity
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Conversation/EndOfConversationActivity.cs:16:public class EndOfConversationActivity() : Activity(ActivityType.EndOfConversation)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Conversation/EndOfConversationActivity.cs:34:public class EndOfConversationCode(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Conversation/ConversationUpdateActivity.cs:16:public class ConversationUpdateActivity() : Activity(ActivityType.ConversationUpdate)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Conversation/ConversationUpdateActivity.cs:47:    public class EventType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/Messages/SubmitActionActivity.cs:21:    public class SubmitActionActivity() : MessageActivity(Name.Messages.SubmitAction)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/Messages/SubmitActionActivity.cs:33:        public class SubmitActionValue
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/FileConsentActivity.cs:16:public class FileConsentActivity() : InvokeActivity(Name.FileConsent)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/SearchActivity.cs:14:public class SearchActivity() : InvokeActivity(Name.Search)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/HandoffActivity.cs:16:public class HandoffActivity() : InvokeActivity(Name.Handoff)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/HandoffActivity.cs:26:public class HandoffActivityValue
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/Configs/FetchActivity.cs:19:    public class FetchActivity : ConfigActivity
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/Configs/SubmitActivity.cs:19:    public class SubmitActivity : ConfigActivity
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/SignIn/TokenExchangeActivity.cs:21:    public class TokenExchangeActivity() : SignInActivity(Name.SignIn.TokenExchange)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/SignIn/VerifyStateActivity.cs:21:    public class VerifyStateActivity() : SignInActivity(Name.SignIn.VerifyState)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/QuerySettingUrlActivity.cs:21:    public class QuerySettingUrlActivity() : MessageExtensionActivity(Name.MessageExtensions.QuerySettingUrl)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/AnonQueryLinkActivity.cs:21:    public class AnonQueryLinkActivity() : MessageExtensionActivity(Name.MessageExtensions.AnonQueryLink)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/SubmitActionActivity.cs:21:    public class SubmitActionActivity() : MessageExtensionActivity(Name.MessageExtensions.SubmitAction)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/FetchTaskActivity.cs:21:    public class FetchTaskActivity() : MessageExtensionActivity(Name.MessageExtensions.FetchTask)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/QueryActivity.cs:21:    public class QueryActivity() : MessageExtensionActivity(Name.MessageExtensions.Query)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/QueryLinkActivity.cs:21:    public class QueryLinkActivity() : MessageExtensionActivity(Name.MessageExtensions.QueryLink)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/SelectItemActivity.cs:19:    public class SelectItemActivity() : MessageExtensionActivity(Name.MessageExtensions.SelectItem)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/CardButtonClickedActivity.cs:19:    public class CardButtonClickedActivity() : MessageExtensionActivity(Name.MessageExtensions.CardButtonClicked)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/MessageExtensions/SettingActivity.cs:21:    public class SettingActivity() : MessageExtensionActivity(Name.MessageExtensions.Setting)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/Tasks/FetchActivity.cs:21:    public class FetchActivity() : TaskActivity(Name.Tasks.Fetch)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/Tasks/SubmitActivity.cs:21:    public class SubmitActivity() : TaskActivity(Name.Tasks.Submit)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/AdaptiveCardActivity.cs:20:public class AdaptiveCardActivity(Name.AdaptiveCards name) : InvokeActivity(new(name.Value))
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/ExecuteActionActivity.cs:19:public class ExecuteActionActivity(O365.ConnectorCardActionQuery value) : InvokeActivity(Name.ExecuteAction)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/AdaptiveCards/ActionActivity.cs:21:    public class ActionActivity() : AdaptiveCardActivity(Name.AdaptiveCards.Action)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/Tabs/FetchActivity.cs:21:    public class FetchActivity() : TabActivity(Name.Tabs.Fetch)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Invokes/Tabs/SubmitActivity.cs:21:    public class SubmitActivity() : TabActivity(Name.Tabs.Submit)
+teams.net/Libraries/Microsoft.Teams.Api/Activities/TypingActivity.cs:17:public class TypingActivity : Activity
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Activity.JsonConverter.cs:14:    public class JsonConverter : JsonConverter<IActivity>
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Activity.JsonConverter.cs:36:    public class JsonConverter : JsonConverter<Activity>
+teams.net/Libraries/Microsoft.Teams.Api/Activities/Activity.JsonConverter.cs:158:public class ActivityJsonConverter : JsonConverterFactory
+teams.net/Libraries/Microsoft.Teams.Api/Account.cs:11:public class Account
+teams.net/Libraries/Microsoft.Teams.Api/Account.cs:39:public class Role(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Team.cs:11:public class Team
+teams.net/Libraries/Microsoft.Teams.Api/Team.cs:64:public class TeamType(string value) : Common.StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Auth/ClientCredentials.cs:8:public class ClientCredentials : IHttpCredentials
+teams.net/Libraries/Microsoft.Teams.Api/Auth/JsonWebToken.cs:9:public class JsonWebToken : IToken
+teams.net/Libraries/Microsoft.Teams.Api/Auth/TokenResponse.cs:10:public class TokenResponse : ITokenResponse
+teams.net/Libraries/Microsoft.Teams.Api/Auth/Token.cs:11:public interface IToken
+teams.net/Libraries/Microsoft.Teams.Api/Auth/Token.cs:66:public class CallerType(string value) : Common.StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Auth/TokenCredentials.cs:10:public class TokenCredentials : IHttpCredentials
+teams.net/Libraries/Microsoft.Teams.Api/Notification.cs:11:public class Notification
+teams.net/Libraries/Microsoft.Teams.Api/Conversation.cs:10:public class Conversation
+teams.net/Libraries/Microsoft.Teams.Api/Conversation.cs:72:public class ConversationType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Conversation.cs:87:public class ConversationReference : ICloneable
+teams.net/Libraries/Microsoft.Teams.Api/Conversation.cs:149:public class ConversationResource
+teams.net/Libraries/Microsoft.Teams.Api/Token/Response.cs:11:public class Response
+teams.net/Libraries/Microsoft.Teams.Api/Token/Status.cs:11:public class Status
+teams.net/Libraries/Microsoft.Teams.Api/Token/Request.cs:11:public class Request
+teams.net/Libraries/Microsoft.Teams.Api/Token/PostResource.cs:11:public class PostResource
+teams.net/Libraries/Microsoft.Teams.Api/Action.cs:11:public class Action(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Meetings/Meeting.cs:11:public class Meeting
+teams.net/Libraries/Microsoft.Teams.Api/Meetings/Participant.cs:11:public class Participant
+teams.net/Libraries/Microsoft.Teams.Api/Meetings/MeetingDetails.cs:11:public class MeetingDetails
+teams.net/Libraries/Microsoft.Teams.Api/OnBehalfOf.cs:8:public class OnBehalfOf
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/InvokeValue.cs:12:public class InvokeValue
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/InvokeAction.cs:12:public class InvokeAction
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/ActionResponse.cs:12:public class ActionResponse(ContentType contentType)
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/ActionResponse.cs:39:    public class Card : ActionResponse
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/ActionResponse.cs:58:    public class Message : ActionResponse
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/ActionResponse.cs:78:    public class Error : ActionResponse
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/ActionResponse.cs:97:    public class Login : ActionResponse
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/ActionResponse.cs:116:    public class IncorrectAuthCode : ActionResponse
+teams.net/Libraries/Microsoft.Teams.Api/AdaptiveCards/ActionResponse.cs:127:    public class PreConditionFailed : ActionResponse
+teams.net/Libraries/Microsoft.Teams.Api/AppBasedQueryLink.cs:11:public class AppBasedQueryLink
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Response.cs:14:public class ActionType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Response.cs:29:public class Response(Response.Payload tab)
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Response.cs:41:    public class Payload
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Response.cs:68:        public class CardPayload
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Response.cs:81:        public class CardsPayload
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/EntityContext.cs:11:public class EntityContext
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/SuggestedActions.cs:11:public class SuggestedActions
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Submit.cs:11:public class Submit
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Submit.cs:38:public class SubmitData
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Context.cs:11:public class Context
+teams.net/Libraries/Microsoft.Teams.Api/Tabs/Request.cs:11:public class Request
+teams.net/Libraries/Microsoft.Teams.Api/App.cs:11:public class App
+teams.net/Libraries/Microsoft.Teams.AI/Messages/DeveloperMessage.cs:9:public class DeveloperMessage : IMessage
+teams.net/Libraries/Microsoft.Teams.AI/Messages/FunctionMessage.cs:9:public class FunctionMessage : IMessage
+teams.net/Libraries/Microsoft.Teams.AI/Messages/UserMessage.cs:11:public class UserMessage(object? content) : UserMessage<object?>(content)
+teams.net/Libraries/Microsoft.Teams.AI/Messages/UserMessage.cs:18:public class UserMessage<T> : IMessage
+teams.net/Libraries/Microsoft.Teams.AI/Messages/UserMessage.cs:60:public class ContentType(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.AI/Messages/UserMessage.cs:72:public interface IContent
+teams.net/Libraries/Microsoft.Teams.AI/Messages/UserMessage.cs:80:public class TextContent : IContent
+teams.net/Libraries/Microsoft.Teams.AI/Messages/UserMessage.cs:93:public class ImageContent : IContent
+teams.net/Libraries/Microsoft.Teams.AI/Messages/ModelMessage.cs:9:public class ModelMessage(object? content) : ModelMessage<object?>(content)
+teams.net/Libraries/Microsoft.Teams.AI/Messages/ModelMessage.cs:16:public class ModelMessage<T> : IMessage
+teams.net/Libraries/Microsoft.Teams.AI/Messages/ModelMessage.cs:54:public class FunctionCall
+teams.net/Libraries/Microsoft.Teams.AI/Stream.cs:15:public interface IStream
+teams.net/Libraries/Microsoft.Teams.AI/Stream.cs:27:public class Stream(OnStreamChunk onChunk) : IStream
+teams.net/Libraries/Microsoft.Teams.AI/Models/ChatModel.cs:12:public interface IChatModel<TOptions> : IModel<TOptions>
+teams.net/Libraries/Microsoft.Teams.AI/Models/ChatModel.cs:36:public class ChatModelOptions<TOptions>
+teams.net/Libraries/Microsoft.Teams.AI/Models/AudioModel.cs:11:public interface IAudioModel<TOptions> : IModel<TOptions>
+teams.net/Libraries/Microsoft.Teams.AI/ChatPlugin.cs:13:public interface IChatPlugin
+teams.net/Libraries/Microsoft.Teams.AI/Annotations/Prompt.InstructionsAttribute.cs:11:    public class InstructionsAttribute : Attribute
+teams.net/Libraries/Microsoft.Teams.AI/Annotations/Function.DescriptionAttribute.cs:9:    public class DescriptionAttribute : Attribute
+teams.net/Libraries/Microsoft.Teams.AI/Annotations/ChatPluginAttribute.cs:4:public class ChatPluginAttribute : Attribute
+teams.net/Libraries/Microsoft.Teams.AI/Annotations/Prompt.DescriptionAttribute.cs:9:    public class DescriptionAttribute : Attribute
+teams.net/Libraries/Microsoft.Teams.AI/Annotations/PromptAttribute.cs:9:public class PromptAttribute : Attribute
+teams.net/Libraries/Microsoft.Teams.AI/Annotations/FunctionAttribute.cs:7:public class FunctionAttribute : Attribute
+teams.net/Libraries/Microsoft.Teams.AI/Annotations/Prompt.NameAttribute.cs:9:    public class NameAttribute(string Name) : Attribute
+teams.net/Libraries/Microsoft.Teams.AI/Annotations/ParamAttribute.cs:7:public class ParamAttribute(string? name = null) : Attribute
+teams.net/Libraries/Microsoft.Teams.AI/Model.cs:11:public interface IModel<TOptions>
+teams.net/Libraries/Microsoft.Teams.AI/Prompts/ChatPrompt/ChatPrompt.cs:19:public interface IChatPrompt : IPrompt
+teams.net/Libraries/Microsoft.Teams.AI/Prompts/ChatPrompt/ChatPrompt.cs:37:public interface IChatPrompt<TOptions> : IChatPrompt
+teams.net/Libraries/Microsoft.Teams.AI/Prompts/ChatPrompt/ChatPrompt.cs:96:    public class RequestOptions
+teams.net/Libraries/Microsoft.Teams.AI/Prompts/ChatPrompt/ChatPrompt.Options.cs:12:public class ChatPromptOptions
+teams.net/Libraries/Microsoft.Teams.AI/FunctionCollection.cs:9:public class FunctionCollection : Dictionary<string, IFunction>
+teams.net/Libraries/Microsoft.Teams.AI/Prompt.cs:12:public interface IPrompt
+teams.net/Libraries/Microsoft.Teams.AI/Template.cs:10:public interface ITemplate
+teams.net/Libraries/Microsoft.Teams.AI/Templates/StringTemplate.cs:10:public class StringTemplate(string? source = null) : ITemplate
+teams.net/Libraries/Microsoft.Teams.AI/Function.cs:24:public interface IFunction
+teams.net/Libraries/Microsoft.Teams.AI/Function.cs:48:public class Function : IFunction
+teams.net/Libraries/Microsoft.Teams.AI/Message.cs:16:public interface IMessage
+teams.net/Libraries/Microsoft.Teams.AI/Message.cs:26:public class Role(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Cards/Actions/MessageBackAction.cs:8:public class MessageBackAction : SubmitAction
+teams.net/Libraries/Microsoft.Teams.Cards/Actions/InvokeAction.cs:11:public class InvokeAction : SubmitAction
+teams.net/Libraries/Microsoft.Teams.Cards/Actions/SignInAction.cs:8:public class SignInAction : SubmitAction
+teams.net/Libraries/Microsoft.Teams.Cards/Actions/TaskFetchAction.cs:8:public class TaskFetchAction : SubmitAction
+teams.net/Libraries/Microsoft.Teams.Cards/Actions/IMBackAction.cs:8:public class IMBackAction : SubmitAction
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:14:public class ActionStyle(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:27:public class ActionMode(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:37:public class AssociatedInputs(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:47:public class ImageInsertPosition(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:60:public class FallbackAction(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:67:public class ContainerStyle(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:89:public class TargetWidth(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:129:public class HorizontalAlignment(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:142:public class VerticalAlignment(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:155:public class FlowLayoutItemFit(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:165:public class Spacing(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:193:public class FillMode(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:209:public class Version(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:234:public class TeamsCardWidth(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:241:public class MentionType(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:251:public class ElementHeight(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:261:public class TextSize(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:280:public class TextWeight(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:293:public class TextColor(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:318:public class FontType(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:328:public class StyleEnum(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:341:public class ImageStyle(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:354:public class Size(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:373:public class InputTextStyle(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:392:public class RatingSize(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:402:public class RatingColor(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:412:public class RatingStyle(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:422:public class IconSize(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:450:public class IconStyle(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:460:public class CarouselPageAnimation(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:473:public class BadgeIconPosition(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:483:public class BadgeAppearance(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:493:public class BadgeSize(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:506:public class BadgeShape(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:519:public class BadgeStyle(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:544:public class ChartColorSet(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:557:public class ChartColor(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:654:public class HorizontalBarChartDisplayMode(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:667:public class GaugeChartValueFormat(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:677:public class CodeLanguage(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:753:public class FallbackElement(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:760:public class ImageSize(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:773:public class SizeEnum(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:792:public class ThemeName(string value) : StringEnum(value, caseSensitive: false)
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:991:public class AdaptiveCard : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1304:public class HostCapabilities : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1336:public class ExecuteAction : Action
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1529:public class SubmitActionData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1569:public class ImBackSubmitActionData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1621:public class InvokeSubmitActionData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1673:public class MessageBackSubmitActionData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1744:public class SigninSubmitActionData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1796:public class TaskFetchSubmitActionData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:1831:public class SubmitAction : Action
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2021:public class TeamsSubmitActionProperties : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2062:public class TeamsSubmitActionFeedback : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2103:public class OpenUrlAction : Action
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2265:public class ToggleVisibilityAction : Action
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2422:public class TargetElement : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2475:public class ShowCardAction : Action
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2632:public class ResetInputsAction : Action
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2789:public class InsertImageAction : Action
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:2970:public class StackLayout : ContainerLayout
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3017:public class FlowLayout : ContainerLayout
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3160:public class AreaGridLayout : ContainerLayout
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3255:public class GridArea : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3344:public class BackgroundImage : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3421:public class RefreshDefinition : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3474:public class Authentication : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3551:public class AuthCardButton : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3628:public class TokenExchangeResource : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3693:public class TeamsCardProperties : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3748:public class Mention : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3807:public class MentionedEntity : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3872:public class CardMetadata : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:3913:public class Container : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:4241:public class ActionSet : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:4437:public class ColumnSet : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:4700:public class Media : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:4915:public class MediaSource : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:4968:public class CaptionSource : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:5033:public class RichTextBlock : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:5224:public class Table : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:5523:public class ColumnDefinition : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:5588:public class TextBlock : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:5880:public class FactSet : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:6064:public class Fact : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:6123:public class ImageSet : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:6331:public class Image : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:6620:public class TeamsImageProperties : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:6661:public class TextInput : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:6962:public class DateInput : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:7227:public class TimeInput : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:7492:public class NumberInput : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:7757:public class ToggleInput : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:8039:public class ChoiceSetInput : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:8369:public class Choice : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:8422:public class QueryData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:8505:public class RatingInput : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:8782:public class Rating : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:9033:public class CompoundButton : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:9272:public class IconInfo : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:9349:public class Icon : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:9581:public class Carousel : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:9796:public class Badge : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:10071:public class DonutChart : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:10286:public class DonutChartData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:10351:public class PieChart : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:10566:public class GroupedVerticalBarChart : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:10871:public class GroupedVerticalBarChartData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:10936:public class BarChartDataValue : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:10989:public class VerticalBarChart : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:11276:public class VerticalBarChartDataValue : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:11341:public class HorizontalBarChart : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:11604:public class HorizontalBarChartDataValue : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:11669:public class StackedHorizontalBarChart : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:11920:public class StackedHorizontalBarChartData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:11973:public class StackedHorizontalBarChartDataPoint : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:12038:public class LineChart : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:12313:public class LineChartData : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:12378:public class LineChartValue : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:12435:public class GaugeChart : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:12722:public class GaugeChartLegend : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:12787:public class CodeBlock : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13002:public class ComUserMicrosoftGraphComponent : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13199:public class PersonaProperties : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13252:public class ComUsersMicrosoftGraphComponent : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13449:public class PersonaSetProperties : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13490:public class ComResourceMicrosoftGraphComponent : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13687:public class ResourceProperties : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13752:public class ResourceVisualization : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13793:public class ComFileMicrosoftGraphComponent : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:13990:public class FileProperties : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:14055:public class ComEventMicrosoftGraphComponent : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:14252:public class CalendarEventProperties : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:14425:public class CalendarEventAttendee : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:14514:public class CarouselPage : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:14794:public class TableRow : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:15045:public class TableCell : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:15337:public class TextRun : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:15581:public class IconRun : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:15748:public class ImageRun : CardElement
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:15915:public class ThemedUrl : SerializableObject
+teams.net/Libraries/Microsoft.Teams.Cards/Core.cs:15968:public class Column : CardElement
+teams.net/Libraries/Microsoft.Teams.Apps.Testing/Events/App.cs:9:public class TestMessageEvent : Event
+teams.net/Libraries/Microsoft.Teams.Apps.Testing/Plugins/TestPlugin.Stream.cs:16:    public class Stream : IStreamer
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpCredentials.cs:6:public interface IHttpCredentials
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpResponse.cs:9:public interface IHttpResponse<TBody>
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpResponse.cs:16:public class HttpResponse<TBody> : IHttpResponse<TBody>
+teams.net/Libraries/Microsoft.Teams.Common/Http/TokenResponse.cs:6:public interface ITokenResponse
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpCredentialsFactory.cs:6:public interface IHttpCredentialsFactory
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpClient.cs:13:public interface IHttpClient : IDisposable
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpClient.cs:21:public class HttpClient : IHttpClient
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpRequest.cs:6:public interface IHttpRequest : IHttpRequestOptions
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpRequest.cs:13:public class HttpRequest : HttpRequestOptions, IHttpRequest
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpException.cs:11:public class HttpException : Exception
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpClientFactory.cs:6:public interface IHttpClientFactory
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpRequestOptions.cs:8:public interface IHttpRequestOptions
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpRequestOptions.cs:18:public class HttpRequestOptions : IHttpRequestOptions
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpClientOptions.cs:11:public interface IHttpClientOptions : IHttpRequestOptions
+teams.net/Libraries/Microsoft.Teams.Common/Http/HttpClientOptions.cs:59:public class HttpClientOptions : HttpRequestOptions, IHttpClientOptions
+teams.net/Libraries/Microsoft.Teams.Common/Json/TrueTypeJsonConverter.cs:13:public class TrueTypeJsonConverter<T> : JsonConverter<T> where T : notnull
+teams.net/Libraries/Microsoft.Teams.Common/Json/TrueTypeJsonAttribute.cs:8:public class TrueTypeJsonAttribute<T>() : JsonConverterAttribute(typeof(TrueTypeJsonConverter<T>)) where T : notnull
+teams.net/Libraries/Microsoft.Teams.Common/Union.cs:132:public class UnionJsonConverter<A, B> : JsonConverter<Union<A, B>>
+teams.net/Libraries/Microsoft.Teams.Common/Union.cs:320:public class UnionJsonConverter<A, B, C> : JsonConverter<Union<A, B, C>>
+teams.net/Libraries/Microsoft.Teams.Common/Union.cs:525:public class UnionJsonConverter<A, B, C, D> : JsonConverter<Union<A, B, C, D>>
+teams.net/Libraries/Microsoft.Teams.Common/Union.cs:549:public class UnionJsonConverterFactory : JsonConverterFactory
+teams.net/Libraries/Microsoft.Teams.Common/Text/ANSI.cs:6:public class ANSI(string value) : StringEnum(value)
+teams.net/Libraries/Microsoft.Teams.Common/StringEnum.cs:9:public class StringEnum(string value, bool caseSensitive = true) : ICloneable, IComparable, IComparable<string>, IEquatable<string>
+teams.net/Libraries/Microsoft.Teams.Common/StringEnum.cs:36:    public class JsonConverter<TStringEnum> : System.Text.Json.Serialization.JsonConverter<TStringEnum>
+teams.net/Libraries/Microsoft.Teams.Common/Builder.cs:6:public interface IBuilder<T>
+teams.net/Libraries/Microsoft.Teams.Common/Storage/LocalStorage.cs:10:public class LocalStorage<TValue> : IStorage<string, TValue>
+teams.net/Libraries/Microsoft.Teams.Common/Storage/Storage.cs:11:public interface IStorage<TKey, TValue> where TKey : notnull
+teams.net/Libraries/Microsoft.Teams.Common/CompilerServices.cs:8:public class RequiredMemberAttribute : Attribute { }
+teams.net/Libraries/Microsoft.Teams.Common/CompilerServices.cs:9:public class CompilerFeatureRequiredAttribute : Attribute
+teams.net/Libraries/Microsoft.Teams.Common/Logging/LogLevel.cs:8:public enum LogLevel
+teams.net/Libraries/Microsoft.Teams.Common/Logging/LoggingSettings.cs:6:public class LoggingSettings
+teams.net/Libraries/Microsoft.Teams.AI.Models.OpenAI/Builders/StreamingChatToolCallBuilder.cs:13:public class StreamingChatToolCallsBuilder
+teams.net/Libraries/Microsoft.Teams.AI.Models.OpenAI/Builders/SequenceBuilder.cs:12:public class SequenceBuilder<T>
+teams.net/Libraries/Microsoft.Teams.AI.Models.OpenAI/OpenAIChatModel.Options.cs:15:    public class Options : OpenAIClientOptions
+teams.net/Libraries/Microsoft.Teams.AI.Models.OpenAI/OpenAIChatPrompt.cs:10:public class OpenAIChatPrompt : ChatPrompt<ChatCompletionOptions>
+teams.net/Libraries/Microsoft.Teams.Extensions/Microsoft.Teams.Extensions.Configuration/Microsoft.Teams.Apps.Extensions/TeamsSettings.cs:8:public class TeamsSettings
+teams.net/Libraries/Microsoft.Teams.Extensions/Microsoft.Teams.Extensions.Configuration/Microsoft.Teams.AI.Models.OpenAI.Extensions/OpenAISettings.cs:6:public class OpenAISettings
+teams.net/Libraries/Microsoft.Teams.Extensions/Microsoft.Teams.Extensions.Hosting/Microsoft.Teams.Apps.Extensions/TeamsService.cs:9:public class TeamsService : IHostedLifecycleService
+teams.net/Libraries/Microsoft.Teams.Extensions/Microsoft.Teams.Extensions.Hosting/Microsoft.Teams.Apps.Extensions/TeamsPluginService.cs:10:public class TeamsPluginService<TPlugin> : IHostedLifecycleService where TPlugin : IPlugin
+teams.net/Libraries/Microsoft.Teams.Extensions/Microsoft.Teams.Extensions.Logging/TeamsLoggerProvider.cs:9:public class TeamsLoggerProvider : ILoggerProvider, IDisposable
+teams.net/Libraries/Microsoft.Teams.Extensions/Microsoft.Teams.Extensions.Logging/TeamsLogger.cs:8:public class TeamsLogger : ILogger, IDisposable

@@ -1,0 +1,903 @@
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Testing/DialogTestClient.cs:17:    public class DialogTestClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Testing/XUnit/XUnitDialogTestLogger.cs:19:    public class XUnitDialogTestLogger : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Testing/XUnit/TestDataObject.cs:18:    public class TestDataObject : IXunitSerializable
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/WebSocket/WebSocketClient.cs:17:    public class WebSocketClient : IStreamingTransportClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/WebSocket/WebSocketTransport.cs:15:    public class WebSocketTransport : ITransportSender, ITransportReceiver
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/WebSocket/WebSocketServer.cs:16:    public class WebSocketServer : IStreamingTransportServer, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/ITransportReceiver.cs:11:    public interface ITransportReceiver : ITransport
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/ITransportSender.cs:11:    public interface ITransportSender : ITransport
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/NamedPipe/NamedPipeClient.cs:18:    public class NamedPipeClient : IStreamingTransportClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/NamedPipe/NamedPipeServer.cs:17:    public class NamedPipeServer : IStreamingTransportServer, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/NamedPipe/NamedPipeTransport.cs:14:    public class NamedPipeTransport : ITransportSender, ITransportReceiver
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/TransportConstants.cs:10:    public class TransportConstants
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/IStreamingTransportClient.cs:14:    public interface IStreamingTransportClient : IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/IStreamingTransportServer.cs:12:    public interface IStreamingTransportServer
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/DisconnectedEventArgs.cs:11:    public class DisconnectedEventArgs : EventArgs
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Transport/ITransport.cs:11:    public interface ITransport : IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/ReceiveResponse.cs:13:    public class ReceiveResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/ResponseMessageStream.cs:13:    public class ResponseMessageStream
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/PayloadStream.cs:15:    public class PayloadStream : Stream
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Models/Header.cs:27:    public class Header
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Models/StreamDescription.cs:11:    public class StreamDescription
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/StreamManager.cs:13:    public class StreamManager : IStreamManager
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Assemblers/PayloadStreamAssembler.cs:13:    public class PayloadStreamAssembler : IAssembler
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Assemblers/IAssembler.cs:12:    public interface IAssembler
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Disassemblers/ResponseMessageStreamDisassembler.cs:13:    public class ResponseMessageStreamDisassembler : PayloadDisassembler
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Disassemblers/ResponseDisassembler.cs:16:    public class ResponseDisassembler : PayloadDisassembler
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Disassemblers/StreamWrapper.cs:11:    public class StreamWrapper
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Disassemblers/CancelDisassembler.cs:13:    public class CancelDisassembler
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/Disassemblers/RequestDisassembler.cs:16:    public class RequestDisassembler : PayloadDisassembler
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/RequestManager.cs:14:    public class RequestManager : IRequestManager
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/IContentStream.cs:12:    public interface IContentStream
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/ContentStream.cs:12:    public class ContentStream : IContentStream
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/SendOperations.cs:17:    public class SendOperations
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/Payloads/IStreamManager.cs:12:    public interface IStreamManager
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/PayloadTransport/PayloadReceiver.cs:16:    public class PayloadReceiver : IPayloadReceiver, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/PayloadTransport/TransportDisconnectedException.cs:11:    public class TransportDisconnectedException : Exception
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/PayloadTransport/IPayloadReceiver.cs:14:    public interface IPayloadReceiver
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/PayloadTransport/PayloadSender.cs:18:    public class PayloadSender : IPayloadSender, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/PayloadTransport/IPayloadSender.cs:15:    public interface IPayloadSender
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/StreamingResponse.cs:17:    public class StreamingResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/ReceiveRequest.cs:12:    public class ReceiveRequest
+botbuilder-dotnet/libraries/Microsoft.Bot.Streaming/StreamingRequest.cs:16:    public class StreamingRequest
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Skills/SkillConversationIdFactoryOptions.cs:11:    public class SkillConversationIdFactoryOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Skills/CloudSkillHandler.cs:18:    public class CloudSkillHandler : CloudChannelServiceHandler
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Skills/SkillConversationIdFactory.cs:17:    public class SkillConversationIdFactory : SkillConversationIdFactoryBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Skills/SkillConversationReference.cs:11:    public class SkillConversationReference
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Skills/SkillHandler.cs:19:    public class SkillHandler : ChannelServiceHandler
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Skills/BotFrameworkSkill.cs:12:    public class BotFrameworkSkill
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ITranscriptStore.cs:13:    public interface ITranscriptStore : ITranscriptLogger
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IntentScore.cs:12:    public class IntentScore
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/DelegatingTurnContext.cs:14:    public class DelegatingTurnContext<T> : ITurnContext<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/CloudChannelServiceHandler.cs:15:    public class CloudChannelServiceHandler : ChannelServiceHandlerBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/UserState.cs:15:    public class UserState : BotState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/TranscriptLoggerMiddleware.cs:16:    public class TranscriptLoggerMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Integration/IAdapterIntegration.cs:17:    public interface IAdapterIntegration
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Integration/BotFrameworkPaths.cs:9:    public class BotFrameworkPaths
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Integration/BotFrameworkOptions.cs:19:    public class BotFrameworkOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ComponentRegistration.cs:24:    /// public class MyComponentRegistration : IComponentDeclarativeTypes
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ComponentRegistration.cs:39:    public class ComponentRegistration
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/SharePoint/SharePointSSOTokenExchangeMiddleware.cs:35:    public class SharePointSSOTokenExchangeMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/SharePoint/SharePointActivityHandler.cs:23:    public class SharePointActivityHandler : ActivityHandler
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/BotFrameworkAdapter.cs:49:    public class BotFrameworkAdapter : BotAdapter, IAdapterIntegration, IExtendedUserTokenProvider, IConnectorClientBuilder
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/MiddlewareSet.cs:14:    public class MiddlewareSet : IMiddleware, IEnumerable<IMiddleware>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Inspection/InspectionState.cs:14:    public class InspectionState : BotState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Inspection/InspectionMiddleware.cs:21:    public class InspectionMiddleware : InterceptionMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/AllowedTypesSerializationBinder.cs:17:    public class AllowedTypesSerializationBinder : DefaultSerializationBinder
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ActivityHandler.cs:23:    public class ActivityHandler : IBot
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/MemoryTranscriptStore.cs:19:    public class MemoryTranscriptStore : ITranscriptStore
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/NormalizeMentionsMiddleware.cs:26:    public class NormalizeMentionsMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IPropertyManager.cs:9:    public interface IPropertyManager
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IBotPageViewTelemetryClient.cs:12:    public interface IBotPageViewTelemetryClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/OAuth/IExtendedUserTokenProvider.cs:17:    public interface IExtendedUserTokenProvider : IUserTokenProvider
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/OAuth/IUserTokenProvider.cs:17:    public interface IUserTokenProvider
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/OAuth/IConnectorClientBuilder.cs:17:    public interface IConnectorClientBuilder
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Adapters/TestFlow.cs:27:    public class TestFlow
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Adapters/TestAdapter.cs:21:    public class TestAdapter : BotAdapter, IExtendedUserTokenProvider
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IRecognizer.cs:12:    public interface IRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/RecognizerResult.cs:14:    public class RecognizerResult : IRecognizerConvert
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/TurnContextStateCollection.cs:16:    public class TurnContextStateCollection : Dictionary<string, object>, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Severity.cs:9:    public enum Severity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/FileTranscriptLogger.cs:21:    public class FileTranscriptLogger : ITranscriptStore
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/BotAssert.cs:14:    public class BotAssert
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IStatePropertyAccessor.cs:15:    public interface IStatePropertyAccessor<T> : IStatePropertyInfo
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IBotTelemetryClient.cs:12:    public interface IBotTelemetryClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/BotStateSet.cs:15:    public class BotStateSet
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/SetSpeakMiddleware.cs:19:    public class SetSpeakMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ITurnContext.cs:87:    public interface ITurnContext<T> : ITurnContext
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ITurnContext.cs:106:    public interface ITurnContext
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/SkypeMentionNormalizeMiddleware.cs:25:    public class SkypeMentionNormalizeMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IBot.cs:15:    public interface IBot
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IStatePropertyInfo.cs:9:    public interface IStatePropertyInfo
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IMiddleware.cs:34:    public interface IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Teams/TeamsSSOTokenExchangeMiddleware.cs:34:    public class TeamsSSOTokenExchangeMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Teams/TeamsActivityHandler.cs:20:    public class TeamsActivityHandler : ActivityHandler
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IRecognizerConvert.cs:9:    public interface IRecognizerConvert
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/AutoSaveStateMiddleware.cs:17:    public class AutoSaveStateMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/NullBotTelemetryClient.cs:12:    public class NullBotTelemetryClient : IBotTelemetryClient, IBotPageViewTelemetryClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/BotState.cs:339:        public class CachedBotState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/PrivateConversationState.cs:14:    public class PrivateConversationState : BotState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/PagedResult.cs:12:    public class PagedResult<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Streaming/IStreamingActivityProcessor.cs:13:    public interface IStreamingActivityProcessor
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Streaming/VersionInfo.cs:9:    public class VersionInfo
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Streaming/BotFrameworkHttpAdapterBase.cs:29:    public class BotFrameworkHttpAdapterBase : BotFrameworkAdapter, IStreamingActivityProcessor, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/Streaming/StreamingRequestHandler.cs:31:    public class StreamingRequestHandler : RequestHandler, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ActivityFactory.cs:17:    public class ActivityFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ConversationState.cs:15:    public class ConversationState : BotState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ITranscriptLogger.cs:12:    public interface ITranscriptLogger
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ChannelServiceHandler.cs:18:    public class ChannelServiceHandler : ChannelServiceHandlerBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/ShowTypingMiddleware.cs:23:    public class ShowTypingMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/TurnContext.cs:22:    public class TurnContext : ITurnContext, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IStorage.cs:13:    public interface IStorage
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/IStorage.cs:54:    public interface IStoreItem
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/RegisterClassMiddleware.cs:13:    public class RegisterClassMiddleware<T> : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/MemoryStorage.cs:17:    public class MemoryStorage : IStorage
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/TelemetryLoggerMiddleware.cs:18:    public class TelemetryLoggerMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/BotFrameworkHttpStatusCodeErrorDetectionStrategy.cs:14:    public class BotFrameworkHttpStatusCodeErrorDetectionStrategy : ITransientErrorDetectionStrategy
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/TranscriptInfo.cs:11:    public class TranscriptInfo
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder/TraceTranscriptLogger.cs:14:    public class TraceTranscriptLogger : ITranscriptLogger
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime/Settings/AdapterSettings.cs:9:    public class AdapterSettings
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime/Settings/SkillConfigurationEntry.cs:9:    public class SkillConfigurationEntry
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector.Streaming/Application/WebSocketClient.cs:16:    public class WebSocketClient : StreamingTransportClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector.Streaming/Application/NamedPipeClient.cs:15:    public class NamedPipeClient : StreamingTransportClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector.Streaming/Application/WebSocketStreamingConnection.cs:15:    public class WebSocketStreamingConnection : StreamingConnection
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector.Streaming/Application/LegacyStreamingConnection.cs:23:    public class LegacyStreamingConnection : StreamingConnection
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector.Streaming/Application/NamedPipeStreamingConnection.cs:14:    public class NamedPipeStreamingConnection : StreamingConnection
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.ApplicationInsights/BotTelemetryClient.cs:14:    public class BotTelemetryClient : IBotTelemetryClient, IBotPageViewTelemetryClient
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionEvaluator.cs:39:    public class ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/StringExpressionConverter.cs:15:    public class StringExpressionConverter : JsonConverter<StringExpression>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/ExpressionPropertyConverter.cs:18:    public class ExpressionPropertyConverter<T> : JsonConverter<ExpressionProperty<T>>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/NumberExpressionConverter.cs:15:    public class NumberExpressionConverter : JsonConverter<NumberExpression>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/ArrayExpressionConverter.cs:21:    public class ArrayExpressionConverter<T> : JsonConverter<ArrayExpression<T>>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/ObjectExpressionConverter.cs:18:    public class ObjectExpressionConverter<T> : JsonConverter<ObjectExpression<T>>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/EnumExpressionConverter.cs:18:    public class EnumExpressionConverter<T> : JsonConverter<EnumExpression<T>>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/IntExpressionConverter.cs:15:    public class IntExpressionConverter : JsonConverter<IntExpression>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/ValueExpressionConverter.cs:17:    public class ValueExpressionConverter : JsonConverter<ValueExpression>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/BoolExpressionConverter.cs:15:    public class BoolExpressionConverter : JsonConverter<BoolExpression>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Converters/ExpressionConverter.cs:14:    public class ExpressionConverter : JsonConverter<Expression>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Expression.cs:26:    public enum ReturnType
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Expression.cs:67:    public class Expression
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Expression.cs:766:        public class FunctionTable : IDictionary<string, ExpressionEvaluator>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/IExpressionProperty.cs:15:    public interface IExpressionProperty
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/ExpressionProperty.cs:19:    public class ExpressionProperty<T> : IExpressionProperty
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/EnumExpression.cs:19:    public class EnumExpression<T> : ExpressionProperty<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/NumberExpression.cs:17:    public class NumberExpression : ExpressionProperty<double>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/ValueExpression.cs:30:    public class ValueExpression : ExpressionProperty<object>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/ArrayExpression.cs:18:    public class ArrayExpression<T> : ExpressionProperty<List<T>>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/StringExpression.cs:27:    public class StringExpression : ExpressionProperty<string>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/ObjectExpression.cs:16:    public class ObjectExpression<T> : ExpressionProperty<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/BoolExpression.cs:17:    public class BoolExpression : ExpressionProperty<bool>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/ExpressionProperties/IntExpression.cs:16:    public class IntExpression : ExpressionProperty<int>
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/parser/ExpressionParser.cs:19:    public class ExpressionParser : IExpressionParser
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/parser/ParserErrorListener.cs:13:    public class ParserErrorListener : BaseErrorListener
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Options.cs:9:    public class Options
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/IExpressionParser.cs:9:    public interface IExpressionParser
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Generated/CommonRegexVisitor.cs:37:public interface ICommonRegexVisitor<Result> : IParseTreeVisitor<Result> {
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Generated/ExpressionAntlrParserListener.cs:33:public interface IExpressionAntlrParserListener : IParseTreeListener {
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Generated/ExpressionAntlrParserVisitor.cs:34:public interface IExpressionAntlrParserVisitor<Result> : IParseTreeVisitor<Result> {
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Generated/CommonRegexListener.cs:36:public interface ICommonRegexListener : IParseTreeListener {
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Constant.cs:13:    public class Constant : Expression
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/BuiltinFunctions/StringTransformEvaluator.cs:13:    public class StringTransformEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/BuiltinFunctions/ComparisonEvaluator.cs:14:    public class ComparisonEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/BuiltinFunctions/NumberTransformEvaluator.cs:12:    public class NumberTransformEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/BuiltinFunctions/TimeTransformEvaluator.cs:15:    public class TimeTransformEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/BuiltinFunctions/NumericEvaluator.cs:12:    public class NumericEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/BuiltinFunctions/MultivariateNumericEvaluator.cs:12:    public class MultivariateNumericEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/Quantifier.cs:12:    public enum QuantifierType
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/Quantifier.cs:28:    public class Quantifier
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/IOptimizer.cs:15:    public interface IOptimizer
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/IOptimizer.cs:28:    public interface IPredicateComparer
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/TriggerTree.cs:60:    public class TriggerTree
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/Node.cs:24:    public class Node
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/Clause.cs:16:    public class Clause : Expression
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/Trigger.cs:14:    public class Trigger
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/TriggerTrees/RelationshipType.cs:9:    public enum RelationshipType
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Memory/IMemory.cs:14:    public interface IMemory
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Memory/StackedMemory.cs:20:    public class StackedMemory : Stack<IMemory>, IMemory
+botbuilder-dotnet/libraries/Microsoft.Bot.AdaptiveExpressions.Core/Memory/SimpleObjectMemory.cs:23:    public class SimpleObjectMemory : IMemory
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.WebApi/BotFrameworkConfigurationBuilder.cs:15:    public class BotFrameworkConfigurationBuilder
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.WebApi/BotFrameworkHttpAdapter.cs:21:    public class BotFrameworkHttpAdapter : BotFrameworkHttpAdapterBase, IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.WebApi/IBotFrameworkHttpAdapter.cs:14:    public interface IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.Core/Skills/SkillHttpClient.cs:19:    public class SkillHttpClient : BotFrameworkHttpClient
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.Core/ConfigurationServiceClientCredentialFactory.cs:36:    public class ConfigurationServiceClientCredentialFactory : ServiceClientCredentialsFactory
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.Core/BotFrameworkHttpClient.cs:31:    public class BotFrameworkHttpClient : BotFrameworkClient
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.Core/BotMessageHandler.cs:21:    public class BotMessageHandler : BotMessageHandlerBase
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.Core/CloudAdapter.cs:27:    public class CloudAdapter : CloudAdapterBase, IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.Core/ConfigurationBotFrameworkAuthentication.cs:19:    public class ConfigurationBotFrameworkAuthentication : BotFrameworkAuthentication
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.Core/BotFrameworkHttpAdapter.cs:31:    public class BotFrameworkHttpAdapter : BotFrameworkHttpAdapterBase, IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.AspNet.Core/IBotFrameworkHttpAdapter.cs:14:    public interface IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.ApplicationInsights.Core/TelemetrySaveBodyASPMiddleware.cs:23:    public class TelemetrySaveBodyASPMiddleware
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.ApplicationInsights.Core/TelemetryBotIdInitializer.cs:18:    public class TelemetryBotIdInitializer : ITelemetryInitializer
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.ApplicationInsights.Core/TelemetryInitializerMiddleware.cs:15:    public class TelemetryInitializerMiddleware : IMiddleware
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.ApplicationInsights.WebApi/TelemetryBotIdInitializer.cs:19:    public class TelemetryBotIdInitializer : ITelemetryInitializer
+botbuilder-dotnet/libraries/integration/Microsoft.Bot.Builder.Integration.ApplicationInsights.WebApi/TelemetryInitializerMiddleware.cs:14:    public class TelemetryInitializerMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookPostback.cs:13:    public class FacebookPostBack
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookAttachment.cs:13:    public class FacebookAttachment
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookResponseOk.cs:13:    public class FacebookResponseOk
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/Handover/FacebookPassThreadControl.cs:13:    public class FacebookPassThreadControl : FacebookThreadControl
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/Handover/FacebookTakeThreadControl.cs:13:    public class FacebookTakeThreadControl : FacebookThreadControl
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/Handover/FacebookThreadControl.cs:13:    public class FacebookThreadControl
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/Handover/FacebookRequestThreadControl.cs:12:    public class FacebookRequestThreadControl : FacebookThreadControl
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/AttachmentPayload.cs:15:    public class AttachmentPayload
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookRecipient.cs:13:    public class FacebookRecipient
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookQuickReply.cs:13:    public class FacebookQuickReply
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookRead.cs:11:    public class FacebookRead
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/Templates/Button.cs:13:    public class Button
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/Templates/Element.cs:14:    public class Element
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/Templates/DefaultAction.cs:13:    public class DefaultAction
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookEntry.cs:13:    public class FacebookEntry
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookReferral.cs:13:    public class FacebookReferral
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookResponseEvent.cs:14:    public class FacebookResponseEvent
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookEvents/FacebookBotUser.cs:13:    public class FacebookBotUser
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookAdapterOptions.cs:12:    public class FacebookAdapterOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookAdapterBotComponent.cs:17:    public class FacebookAdapterBotComponent : BotComponent
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookMessage.cs:16:    public class FacebookMessage
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookAdapter.cs:31:    public class FacebookAdapter : BotAdapter, IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/Message.cs:15:    public class Message
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookClientWrapperOptions.cs:13:    public class FacebookClientWrapperOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Facebook/FacebookClientWrapper.cs:22:    public class FacebookClientWrapper
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Webex/WebexMessageRequest.cs:14:    public class WebexMessageRequest
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Webex/WebexClientWrapperOptions.cs:12:    public class WebexClientWrapperOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Webex/WebexAdapter.cs:27:    public class WebexAdapter : BotAdapter, IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Webex/WebexAdapterBotComponent.cs:17:    public class WebexAdapterBotComponent : BotComponent
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Webex/WebexAdapterOptions.cs:12:    public class WebexAdapterOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Webex/AttachmentActionData.cs:15:    public class AttachmentActionData
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Webex/WebexClientWrapper.cs:25:    public class WebexClientWrapper
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/SlackUser.cs:10:    public class SlackUser
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/SlackTeam.cs:9:    public class SlackTeam
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/ModelViewState.cs:11:    public class ModelViewState
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/Events/MessageEvent.cs:15:    public class MessageEvent : EventType
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/Events/UrlVerificationEvent.cs:12:    public class UrlVerificationEvent
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/EventRequest.cs:15:    public class EventRequest
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/ModalBlock.cs:11:    public class ModalBlock
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/SlackAction.cs:11:    public class SlackAction
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/SelectOption.cs:10:    public class SelectOption
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/NewSlackMessage.cs:13:    public class NewSlackMessage
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/InteractionPayload.cs:17:    public class InteractionPayload
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/CommandPayload.cs:15:    public class CommandPayload
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/ModalView.cs:10:    public class ModalView
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/SlackAttachment.cs:12:    public class SlackAttachment
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/EventType.cs:16:    public class EventType
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/Model/SlackResponse.cs:13:    public class SlackResponse
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/SlackClientWrapperOptions.cs:15:    public class SlackClientWrapperOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/SlackAdapterOptions.cs:12:    public class SlackAdapterOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/SlackAdapterBotComponent.cs:17:    public class SlackAdapterBotComponent : BotComponent
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/SlackAdapter.cs:28:    public class SlackAdapter : BotAdapter, IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/SlackClientWrapper.cs:22:    public class SlackClientWrapper
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Slack/ActivityResourceResponse.cs:13:    public class ActivityResourceResponse : ResourceResponse
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Twilio/TwilioMessage.cs:14:    public class TwilioMessage
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Twilio/TwilioMessageOptions.cs:13:    public class TwilioMessageOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Twilio/TwilioClientWrapper.cs:19:    public class TwilioClientWrapper
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Twilio/TwilioAdapterOptions.cs:12:    public class TwilioAdapterOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Twilio/TwilioClientWrapperOptions.cs:12:    public class TwilioClientWrapperOptions
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Twilio/TwilioAdapter.cs:28:    public class TwilioAdapter : BotAdapter, IBotFrameworkHttpAdapter
+botbuilder-dotnet/libraries/Adapters/Microsoft.Bot.Builder.Adapters.Twilio/TwilioAdapterBotComponent.cs:17:    public class TwilioAdapterBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Debugging/DialogDebugAdapter.cs:71:        public enum Phase
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/OAuthConfiguration.cs:9:    public class OAuthConfiguration
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/ManagedIdentityAuthenticator.cs:18:    public class ManagedIdentityAuthenticator : IAuthenticator
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/PasswordServiceClientCredentialFactory.cs:16:    public class PasswordServiceClientCredentialFactory : ServiceClientCredentialsFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/FederatedServiceClientCredentialsFactory.cs:16:    public class FederatedServiceClientCredentialsFactory : ServiceClientCredentialsFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/SimpleChannelProvider.cs:13:    public class SimpleChannelProvider : IChannelProvider
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/ICredentialProvider.cs:20:    public interface ICredentialProvider
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/ManagedIdentityServiceClientCredentialsFactory.cs:16:    public class ManagedIdentityServiceClientCredentialsFactory : ServiceClientCredentialsFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/MsalServiceClientCredentialsFactory.cs:22:    public class MsalServiceClientCredentialsFactory : ServiceClientCredentialsFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/SimpleCredentialProvider.cs:13:    public class SimpleCredentialProvider : ICredentialProvider
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/MicrosoftGovernmentAppCredentials.cs:13:    public class MicrosoftGovernmentAppCredentials : MicrosoftAppCredentials
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/IChannelProvider.cs:15:    public interface IChannelProvider
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/MicrosoftAppCredentials.cs:14:    public class MicrosoftAppCredentials : AppCredentials
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/AuthenticationConfiguration.cs:16:    public class AuthenticationConfiguration
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/SkillValidation.cs:20:    public class SkillValidation
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/CertificateAppCredentials.cs:15:    public class CertificateAppCredentials : AppCredentials
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/IAuthenticator.cs:11:    public interface IAuthenticator
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/AllowedSkillsClaimsValidator.cs:15:    public class AllowedSkillsClaimsValidator : ClaimsValidator
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/IServiceClientCredentialProvider.cs:16:    public interface IServiceClientCredentialProvider : ICredentialProvider
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/MsalAppCredentials.cs:17:    public class MsalAppCredentials : AppCredentials, IAuthenticator
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/FederatedAppCredentials.cs:14:    public class FederatedAppCredentials : AppCredentials
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/ThrottleException.cs:11:    public class ThrottleException : Exception
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/ManagedIdentityAppCredentials.cs:14:    public class ManagedIdentityAppCredentials : AppCredentials
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/RetryParams.cs:11:    public class RetryParams
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/AllowedCallersClaimsValidator.cs:15:    public class AllowedCallersClaimsValidator : ClaimsValidator
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/CertificateServiceClientCredentialsFactory.cs:18:    public class CertificateServiceClientCredentialsFactory : ServiceClientCredentialsFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/CertificateAppCredentialsOptions.cs:13:    public class CertificateAppCredentialsOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/AuthenticatorResult.cs:11:    public class AuthenticatorResult
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/JwtTokenExtractor.cs:22:    public class JwtTokenExtractor
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/CertificateGovernmentAppCredentials.cs:13:    public class CertificateGovernmentAppCredentials : CertificateAppCredentials
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Authentication/AuthenticateRequestResult.cs:11:    public class AuthenticateRequestResult
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Channels.cs:13:    public class Channels
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/OAuthClientOld.cs:23:    public class OAuthClientOld : ServiceClient<OAuthClientOld>
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Bot.Builder/InvokeResponse{T}.cs:13:    public class InvokeResponse<T> : InvokeResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Connector/Bot.Builder/InvokeResponse.cs:12:    public class InvokeResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Azure.Blobs/BlobsTranscriptStore.cs:28:    public class BlobsTranscriptStore : ITranscriptStore
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Azure.Blobs/BlobsStorage.cs:32:    public class BlobsStorage : IStorage
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/ComponentDialog.cs:17:    public class ComponentDialog : DialogContainer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogManagerResult.cs:11:    public class DialogManagerResult
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogState.cs:13:    public class DialogState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/PersistedState.cs:12:    public class PersistedState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/SkillDialogOptions.cs:13:    public class SkillDialogOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogInstance.cs:14:    public class DialogInstance
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/WaterfallStepContext.cs:16:    public class WaterfallStepContext : DialogContext
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/WaterfallDialog.cs:18:    public class WaterfallDialog : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/PersistedStateKeys.cs:12:    public class PersistedStateKeys : IEnumerable<string>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogContext.cs:21:    public class DialogContext
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/ChoiceFactoryOptions.cs:11:    public class ChoiceFactoryOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/Tokenizer.cs:21:    public class Tokenizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/ChoiceFactory.cs:15:    public class ChoiceFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/ChoiceRecognizers.cs:18:    public class ChoiceRecognizers
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/SortedValue.cs:11:    public class SortedValue
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/Choice.cs:14:    public class Choice
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/Channel.cs:12:    public class Channel
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/Channel.cs:149:        public class Channels : Connector.Channels
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/ModelResult.cs:10:    public class ModelResult<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/ListStyle.cs:14:    public enum ListStyle
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/FindChoicesOptions.cs:11:    public class FindChoicesOptions : FindValuesOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/Token.cs:10:    public class Token
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/FoundValue.cs:10:    public class FoundValue
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/FoundChoice.cs:11:    public class FoundChoice
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Choices/FindValuesOptions.cs:11:    public class FindValuesOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogsBotComponent.cs:16:    public class DialogsBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogEvents.cs:10:    public class DialogEvents
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogReason.cs:9:    public enum DialogReason
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/OAuthPromptSettings.cs:11:    public class OAuthPromptSettings
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/ChoicePrompt.cs:18:    public class ChoicePrompt : Prompt<FoundChoice>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/PromptValidatorContext.cs:14:    public class PromptValidatorContext<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/DateTimeResolution.cs:12:    public class DateTimeResolution
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/TextPrompt.cs:15:    public class TextPrompt : Prompt<string>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/ConfirmPrompt.cs:19:    public class ConfirmPrompt : Prompt<bool>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/OAuthPrompt.cs:59:    public class OAuthPrompt : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/ActivityPrompt.cs:21:    public class ActivityPrompt : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/PromptOptions.cs:13:    public class PromptOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/NumberPrompt.cs:25:    public class NumberPrompt<T> : Prompt<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/PromptRecognizerResult.cs:10:    public class PromptRecognizerResult<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/AttachmentPrompt.cs:15:    public class AttachmentPrompt : Prompt<IList<Attachment>>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/PromptCultureModel.cs:9:    public class PromptCultureModel
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Prompts/DatetimePrompt.cs:17:    public class DateTimePrompt : Prompt<IList<DateTimeResolution>>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogContextVisibleState.cs:14:    public class DialogContextVisibleState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogManager.cs:17:    public class DialogManager
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/IItemIdentity.cs:6:    public interface IItemIdentity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/ITemplate.cs:12:    public interface ITemplate<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/SourceContext.cs:11:    public class SourceContext
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/IDialogDebugger.cs:12:    public interface IDialogDebugger
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/IDialogDebugger.cs:29:    public interface IDebugger
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/SourceMap.cs:11:    public class SourceMap : ConcurrentDictionary<object, SourceRange>, ISourceMap
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/SourcePoint.cs:14:    public class SourcePoint : IEquatable<SourcePoint>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/NullSourceMap.cs:9:    public class NullSourceMap : ISourceMap
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/NullDialogDebugger.cs:13:    public class NullDialogDebugger : IDialogDebugger
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/SourceRange.cs:15:    public class SourceRange : IEquatable<SourceRange>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Debugging/ISourceMap.cs:9:    public interface ISourceMap
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/BeginSkillDialogOptions.cs:11:    public class BeginSkillDialogOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogTurnResult.cs:16:    public class DialogTurnResult
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogEvent.cs:9:    public class DialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogSet.cs:16:    public class DialogSet
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogTurnStatus.cs:9:    public enum DialogTurnStatus
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Recognizer.cs:30:    public class Recognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Obsolete/IComponentMemoryScopes.cs:17:    public interface IComponentMemoryScopes
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Obsolete/IComponentPathResolvers.cs:16:    public interface IComponentPathResolvers
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Obsolete/ComponentRegistrationBridge.cs:20:    public class ComponentRegistrationBridge<TComponent> : ComponentRegistration, IComponentMemoryScopes, IComponentPathResolvers
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Obsolete/DialogManagerAdapter.cs:14:    public class DialogManagerAdapter : BotAdapter
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/ScopePath.cs:12:    public class ScopePath
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/ThisPath.cs:12:    public class ThisPath
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/PathResolvers/PercentPathResolver.cs:9:    public class PercentPathResolver : AliasPathResolver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/PathResolvers/AliasPathResolver.cs:11:    public class AliasPathResolver : IPathResolver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/PathResolvers/DollarPathResolver.cs:12:    public class DollarPathResolver : AliasPathResolver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/PathResolvers/AtAtPathResolver.cs:9:    public class AtAtPathResolver : AliasPathResolver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/PathResolvers/AtPathResolver.cs:11:    public class AtPathResolver : AliasPathResolver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/PathResolvers/HashPathResolver.cs:9:    public class HashPathResolver : AliasPathResolver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/DialogStateManagerConfiguration.cs:12:    public class DialogStateManagerConfiguration
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/TurnPath.cs:12:    public class TurnPath
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/DialogStateManager.cs:23:    public class DialogStateManager : IDictionary<string, object>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/DialogPath.cs:10:    public class DialogPath
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/DialogContextPath.cs:10:    public class DialogContextPath
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/IPathResolver.cs:9:    public interface IPathResolver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/SettingsMemoryScope.cs:19:    public class SettingsMemoryScope : MemoryScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/DialogMemoryScope.cs:12:    public class DialogMemoryScope : MemoryScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/TurnMemoryScope.cs:13:    public class TurnMemoryScope : MemoryScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/DialogClassMemoryScope.cs:11:    public class DialogClassMemoryScope : MemoryScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/BotStateMemoryScope.cs:15:    public class BotStateMemoryScope<T> : MemoryScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/ConversationMemoryScope.cs:14:    public class ConversationMemoryScope : BotStateMemoryScope<ConversationState>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/UserMemoryScope.cs:14:    public class UserMemoryScope : BotStateMemoryScope<UserState>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/ThisMemoryScope.cs:12:    public class ThisMemoryScope : MemoryScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/ClassMemoryScope.cs:11:    public class ClassMemoryScope : MemoryScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/Memory/Scopes/DialogContextMemoryScope.cs:17:    public class DialogContextMemoryScope : MemoryScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/IDialogDependencies.cs:11:    public interface IDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/DialogsComponentRegistration.cs:11:    public class DialogsComponentRegistration : ComponentRegistrationBridge<DialogsBotComponent>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs/SkillDialog.cs:22:    public class SkillDialog : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisApplication.cs:13:    public class LuisApplication
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/V3/LuisApplication.cs:14:    public class LuisApplication
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/V3/LuisPredictionOptions.cs:12:    public class LuisPredictionOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/V3/LuisRecognizer.cs:25:    public class LuisRecognizer : LuisV2.ITelemetryRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/V3/LuisRecognizerOptions.cs:14:     public class LuisRecognizerOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/V3/ExternalEntity.cs:12:    public class ExternalEntity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/V3/DynamicList.cs:13:    public class DynamicList
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/V3/ListElement.cs:13:    public class ListElement
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisRecognizerOptionsV2.cs:19:    public class LuisRecognizerOptionsV2 : LuisRecognizerOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/ITelemetryRecognizer.cs:13:    public interface ITelemetryRecognizer : IRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisPredictionOptions.cs:12:    public class LuisPredictionOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisComponentRegistration.cs:13:    public class LuisComponentRegistration : DeclarativeComponentRegistrationBridge<LuisBotComponent>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/DateTimeSpec.cs:18:    public class DateTimeSpec
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/Dimension.cs:9:    public class Dimension : NumberWithUnits
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/Money.cs:9:    public class Money : NumberWithUnits
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/Temperature.cs:9:    public class Temperature : NumberWithUnits
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/OrdinalV2.cs:11:    public class OrdinalV2
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/GeographyV2.cs:11:    public class GeographyV2
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/NumberWithUnits.cs:14:    public class NumberWithUnits
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/InstanceData.cs:11:    public class InstanceData
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/Generator/Age.cs:9:    public class Age : NumberWithUnits
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisAdaptiveRecognizer.cs:22:    public class LuisAdaptiveRecognizer : Recognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisRecognizer.cs:24:    public class LuisRecognizer : ITelemetryRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/DynamicList.cs:13:    public class DynamicList
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisRecognizerOptionsV3.cs:22:    public class LuisRecognizerOptionsV3 : LuisRecognizerOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisBotComponent.cs:17:    public class LuisBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.LUIS/LuisAdaptivePredictionOptions.cs:15:    public class LuisAdaptivePredictionOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ICommandResultActivity.cs:9:    public interface ICommandResultActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IHandoffActivity.cs:9:    public interface IHandoffActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ICommandActivity.cs:9:    public interface ICommandActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SearchInvokeValue.cs:12:    public class SearchInvokeValue
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Converters/SurfaceConverter.cs:14:    public class SurfaceConverter : JsonConverter
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Attachment.cs:13:    public class Attachment
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/TokenExchangeInvokeResponse.cs:12:    public class TokenExchangeInvokeResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IEventActivity.cs:9:    public interface IEventActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/CommandResultValue.cs:14:    public class CommandResultValue<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneLabelProperties.cs:17:    public class PropertyPaneLabelProperties : IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneChoiceGroupImageSize.cs:17:    public class PropertyPaneChoiceGroupImageSize
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneChoiceGroupProperties.cs:17:    public class PropertyPaneChoiceGroupProperties : IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/QuickViewData.cs:17:    public class QuickViewData
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPanePage.cs:17:    public class PropertyPanePage
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneDropDownOption.cs:17:    public class PropertyPaneDropDownOption
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneDropDownOption.cs:30:        public enum DropDownOptionType
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/QuickViewResponse.cs:19:    public class QuickViewResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPanePageHeader.cs:17:    public class PropertyPanePageHeader
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneLinkProperties.cs:17:    public class PropertyPaneLinkProperties : IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneGroup.cs:17:    public class PropertyPaneGroup : IPropertyPaneGroupOrConditionalGroup
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/FocusParameters.cs:17:    public class FocusParameters
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/FocusParameters.cs:30:        public enum AriaLiveOption
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/ShowLocationActionParameters.cs:14:    public class ShowLocationActionParameters
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/ShowLocationAction.cs:17:    public class ShowLocationAction : BaseAction, IAction, IOnCardSelectionAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/QuickViewAction.cs:17:    public class QuickViewAction : BaseAction, IAction, IOnCardSelectionAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/GetLocationAction.cs:17:    public class GetLocationAction : BaseAction, IAction, IOnCardSelectionAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/ICardActionParameters.cs:14:    public interface ICardActionParameters
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/QuickViewActionParameters.cs:14:    public class QuickViewActionParameters
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/GetLocationActionParameters.cs:14:    public class GetLocationActionParameters
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/IAction.cs:14:    public interface IAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/Location.cs:16:    public class Location 
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/ConfirmationDialog.cs:15:    public class ConfirmationDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/ExternalLinkActionParameters.cs:14:    public class ExternalLinkActionParameters
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/SelectMediaAction.cs:17:    public class SelectMediaAction : BaseAction, IAction, IOnCardSelectionAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/SelectMediaActionParameters.cs:14:    public class SelectMediaActionParameters
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/SelectMediaActionParameters.cs:27:        public enum MediaTypeOption
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/SubmitAction.cs:14:    public class SubmitAction : BaseAction, IAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/ExternalLinkAction.cs:17:    public class ExternalLinkAction : BaseAction, IAction, IOnCardSelectionAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/IOnCardSelectionAction.cs:14:    public interface IOnCardSelectionAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/ExecuteAction.cs:14:    public class ExecuteAction : BaseAction, IAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/Actions/BaseAction.cs:14:    public class BaseAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/IPropertyPaneFieldProperties.cs:18:    public interface IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneTextFieldProperties.cs:17:    public class PropertyPaneTextFieldProperties : IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardSearchBoxComponent.cs:15:    public class CardSearchBoxComponent : BaseCardComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardTextInputIconButton.cs:14:    public class CardTextInputIconButton : CardTextInputBaseButton
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardTextInputTitleButton.cs:14:    public class CardTextInputTitleButton : CardTextInputBaseButton
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardViewParameters.cs:15:    public class CardViewParameters
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardButtonComponent.cs:16:    public enum CardButtonStyle
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardButtonComponent.cs:32:    public class CardButtonComponent : BaseCardComponent, ICardButtonBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardBarComponent.cs:15:    public class CardBarComponent : BaseCardComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/ICardButtonBase.cs:14:    public interface ICardButtonBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardSearchFooterComponent.cs:15:    public class CardSearchFooterComponent : BaseCardComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardTextComponent.cs:15:    public class CardTextComponent : BaseCardComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardImage.cs:14:    public class CardImage
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardTextInputComponent.cs:15:    public class CardTextInputComponent : BaseCardComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardComponentName.cs:16:    public enum CardComponentName
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardTextInputBaseButton.cs:14:    public class CardTextInputBaseButton : ICardButtonBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/CardSearchBoxButton.cs:14:    public class CardSearchBoxButton : ICardButtonBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardView/BaseCardComponent.cs:15:    public class BaseCardComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneChoiceGroupOption.cs:18:    public class PropertyPaneChoiceGroupOption
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/AceData.cs:17:    public class AceData
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/AceData.cs:30:        public enum AceCardSize
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneDropDownProperties.cs:17:    public class PropertyPaneDropDownProperties : IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/IPropertyPaneGroupOrConditionalGroup.cs:18:    public interface IPropertyPaneGroupOrConditionalGroup
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneToggleProperties.cs:17:    public class PropertyPaneToggleProperties : IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/AceRequest.cs:14:    public class AceRequest
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneGroupField.cs:17:    public class PropertyPaneGroupField
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneGroupField.cs:30:        public enum FieldType
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/QuickViewHandleActionResponse.cs:14:    public class QuickViewHandleActionResponse : BaseHandleActionResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardViewResponse.cs:15:    public class CardViewResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/CardViewHandleActionResponse.cs:14:    public class CardViewHandleActionResponse : BaseHandleActionResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/GetPropertyPaneConfigurationResponse.cs:19:    public class GetPropertyPaneConfigurationResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/NoOpHandleActionResponse.cs:14:    public class NoOpHandleActionResponse : BaseHandleActionResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneLinkPopupWindowProperties.cs:18:    public class PropertyPaneLinkPopupWindowProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneLinkPopupWindowProperties.cs:31:        public enum PopupWindowPosition
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneCheckboxProperties.cs:17:    public class PropertyPaneCheckboxProperties : IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneSliderProperties.cs:17:    public class PropertyPaneSliderProperties : IPropertyPaneFieldProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/BaseHandleActionResponse.cs:16:    public enum ViewResponseType
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/BaseHandleActionResponse.cs:37:    public class BaseHandleActionResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SharePoint/PropertyPaneChoiceGroupIconProperties.cs:17:    public class PropertyPaneChoiceGroupIconProperties
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IActivity.cs:12:    public interface IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ITraceActivity.cs:19:    public interface ITraceActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/AdaptiveCardInvokeResponse.cs:11:    public class AdaptiveCardInvokeResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SuggestedActions.cs:14:    public class SuggestedActions
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IMessageUpdateActivity.cs:9:    public interface IMessageUpdateActivity : IMessageActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/CommandValue.cs:13:    public class CommandValue<T>
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/MicrosoftPayMethodData.cs:14:    public class MicrosoftPayMethodData
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ErrorCodes.cs:10:    public class ErrorCodes
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Mention.cs:11:    public class Mention : Entity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/CardAction.cs:12:    public class CardAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IInstallationUpdateActivity.cs:9:    public interface IInstallationUpdateActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IContactRelationUpdateActivity.cs:9:    public interface IContactRelationUpdateActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Entity.cs:13:    public class Entity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/TokenExchangeInvokeRequest.cs:12:    public class TokenExchangeInvokeRequest
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IEndOfConversationActivity.cs:9:    public interface IEndOfConversationActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/AdaptiveCardAuthentication.cs:9:    public class AdaptiveCardAuthentication : TokenExchangeInvokeRequest
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IMessageDeleteActivity.cs:9:    public interface IMessageDeleteActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Place.cs:11:    public class Place : Entity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IInvokeActivity.cs:9:    public interface IInvokeActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/AdaptiveCardInvokeAction.cs:11:    public class AdaptiveCardInvokeAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ConversationReference.cs:11:    public class ConversationReference
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/SurfaceType.cs:9:    public enum SurfaceType
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/TargetedMeetingNotification.cs:11:    public class TargetedMeetingNotification : MeetingNotification<TargetedMeetingNotificationValue>
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/TaskModuleAction.cs:12:    public class TaskModuleAction : CardAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/Surface.cs:14:    public class Surface
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/MeetingTabIconSurface.cs:11:    public class MeetingTabIconSurface : Surface
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/TargetedMeetingNotificationValue.cs:12:    public class TargetedMeetingNotificationValue
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/MeetingNotificationChannelData.cs:12:    public class MeetingNotificationChannelData
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/BatchFailedEntry.cs:11:    public class BatchFailedEntry
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/ContentType.cs:9:    public enum ContentType
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/MeetingNotificationBase.cs:11:    public class MeetingNotificationBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/TeamsPagedMembersResult.cs:14:    public class TeamsPagedMembersResult
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/MeetingNotificationResponse.cs:13:    public class MeetingNotificationResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/BatchFailedEntriesResponse.cs:13:    public class BatchFailedEntriesResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/MeetingStageSurface.cs:13:    public class MeetingStageSurface<T> : Surface
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/MeetingNotificationRecipientFailureInfo.cs:11:    public class MeetingNotificationRecipientFailureInfo
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/OnBehalfOf.cs:11:    public class OnBehalfOf
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/MeetingNotification.cs:12:    public class MeetingNotification<T> : MeetingNotificationBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/Teams/BatchOperationState.cs:13:    public class BatchOperationState
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ISuggestionActivity.cs:15:    public interface ISuggestionActivity : IMessageActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/PaymentRequest.cs:14:    public class PaymentRequest
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IMessageActivity.cs:12:    public interface IMessageActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ConversationAccount.cs:10:    public class ConversationAccount
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SearchInvokeOptions.cs:11:    public class SearchInvokeOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/GeoCoordinates.cs:11:    public class GeoCoordinates : Entity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/SearchInvokeResponse.cs:11:    public class SearchInvokeResponse : AdaptiveCardInvokeResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/TokenPollingSettings.cs:11:    public class TokenPollingSettings
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/TokenExchangeState.cs:11:    public class TokenExchangeState
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IConversationUpdateActivity.cs:11:    public interface IConversationUpdateActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/AdaptiveCardInvokeValue.cs:11:    public class AdaptiveCardInvokeValue
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ChannelAccount.cs:10:    public class ChannelAccount
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/IMessageReactionActivity.cs:11:    public interface IMessageReactionActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Schema/ITypingActivity.cs:9:    public interface ITypingActivity : IActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.Orchestrator/OrchestratorRecognizer.cs:28:    public class OrchestratorRecognizer : AdaptiveRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.Orchestrator/OrchestratorComponentRegistration.cs:13:    public class OrchestratorComponentRegistration : DeclarativeComponentRegistrationBridge<OrchestratorBotComponent>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.Orchestrator/OrchestratorBotComponent.cs:16:    public class OrchestratorBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Converters/InterfaceConverter.cs:20:    public class InterfaceConverter<T> : JsonConverter, IObservableConverter, IObservableJsonConverter
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Converters/LambdaJsonConverterFactory.cs:14:    public class LambdaJsonConverterFactory : JsonConverterFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Converters/JsonConverterFactory{TConverter}.cs:14:    public class JsonConverterFactory<TConverter> : JsonConverterFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Converters/InterfaceConverterFactory.cs:14:    public class InterfaceConverterFactory<T> : JsonConverterFactory
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Observers/IObservableJsonConverter.cs:11:    public interface IObservableJsonConverter
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Observers/IJsonLoadObserver.cs:15:    public interface IJsonLoadObserver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/DeclarativeBotComponent.cs:14:    public class DeclarativeBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/DeclarativeType.cs:14:    public class DeclarativeType
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/DeclarativeType.cs:63:    public class DeclarativeType<T> : DeclarativeType
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Obsolete/IObservableConverter.cs:13:    public interface IObservableConverter
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Obsolete/IConverterObserver.cs:16:    public interface IConverterObserver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Obsolete/IComponentDeclarativeTypes.cs:16:    public interface IComponentDeclarativeTypes 
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Obsolete/DeclarativeComponentRegistration.cs:13:    public class DeclarativeComponentRegistration : DeclarativeComponentRegistrationBridge<DeclarativeBotComponent>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Obsolete/JsonLoadObserverWrapper.cs:15:    public class JsonLoadObserverWrapper : IJsonLoadObserver
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Obsolete/DeclarativeComponentRegistrationBridge.cs:23:    public class DeclarativeComponentRegistrationBridge<TComponent> 
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Loaders/DefaultLoader.cs:13:    public class DefaultLoader : ICustomDeserializer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Loaders/ICustomDeserializer.cs:13:    public interface ICustomDeserializer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Resources/FolderResourceProvider.cs:17:    public class FolderResourceProvider : ResourceProvider, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Resources/ResourceExplorer.cs:26:    public class ResourceExplorer : IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Resources/ResourceExplorerOptions.cs:13:    public class ResourceExplorerOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Declarative/Resources/FileResource.cs:14:    public class FileResource : Resource
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Azure.Queues/AzureQueueStorage.cs:18:    public class AzureQueueStorage : QueueStorage
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/Diagnostic.cs:11:    public class Diagnostic : Error
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/SynonymElement.cs:14:    public class SynonymElement
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/ImportSection.cs:11:    public class ImportSection : Section
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/LUResource.cs:21:    public enum SectionType
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/LUResource.cs:32:    public enum TypeEnum
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/SimpleIntentSection.cs:14:    public class SimpleIntentSection : Section
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/Generated/LUFileParserVisitor.cs:33:public interface ILUFileParserVisitor<Result> : IParseTreeVisitor<Result> {
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/Generated/LUFileParserListener.cs:32:public interface ILUFileParserListener : IParseTreeListener {
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/NestedIntentSection.cs:12:    public class NestedIntentSection : Section
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/NewEntitySection.cs:13:    public class NewEntitySection : SectionEntity
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/QnaTuple.cs:8:    public class QnaTuple
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/QnaSection.cs:14:    public class QnaSection : Section
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/PromptDefinition.cs:11:    public class PromptDefinition
+botbuilder-dotnet/libraries/Parsers/Microsoft.Bot.Builder.Parsers.LU/ModelInfoSection.cs:13:    public class ModelInfoSection : Section
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Diagnostic.cs:9:    public enum DiagnosticSeverity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Diagnostic.cs:36:    public class Diagnostic
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Events/ExpressionRef.cs:11:    public class ExpressionRef
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Events/BeginTemplateEvaluationArgs.cs:9:    public class BeginTemplateEvaluationArgs : LGEventArgs
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Events/MessageArgs.cs:9:    public class MessageArgs : LGEventArgs
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Events/BeginExpressionEvaluationArgs.cs:9:    public class BeginExpressionEvaluationArgs : LGEventArgs
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Events/LGEventArgs.cs:11:    public class LGEventArgs : EventArgs
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/EvaluationOptions.cs:14:    public enum LGLineBreakStyle
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/EvaluationOptions.cs:30:    public enum LGCacheScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/EvaluationOptions.cs:51:    public class EvaluationOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Templates.cs:24:    public class Templates : List<Template>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Range.cs:9:    public class Range
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/TemplatesParser.cs:305:        public class TemplatesTransformer : LGFileParserBaseVisitor<object>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/TemplateImport.cs:11:    public class TemplateImport
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Generated/LGFileParserListener.cs:33:public interface ILGFileParserListener : IParseTreeListener {
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Generated/LGTemplateParserVisitor.cs:34:public interface ILGTemplateParserVisitor<Result> : IParseTreeVisitor<Result> {
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Generated/LGTemplateParserListener.cs:33:public interface ILGTemplateParserListener : IParseTreeListener {
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Generated/LGFileParserVisitor.cs:34:public interface ILGFileParserVisitor<Result> : IParseTreeVisitor<Result> {
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Template.cs:16:    public class Template
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/TemplateException.cs:16:    public class TemplateException : Exception, ISerializable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/MultiLanguageLG.cs:12:    public class MultiLanguageLG
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/Position.cs:10:    public class Position
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/AnalyzerOptions.cs:12:    public class AnalyzerOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/AnalyzerResult.cs:13:    public class AnalyzerResult
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/LGResource.cs:9:    public class LGResource
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.LanguageGeneration/SourceRange.cs:11:    public class SourceRange
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.TemplateManager/TemplateManager.cs:17:    public class TemplateManager
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.TemplateManager/DictionaryRenderer.cs:20:    public class DictionaryRenderer : ITemplateRenderer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.TemplateManager/TemplateIdMap.cs:12:    public class TemplateIdMap : Dictionary<string, Func<ITurnContext, dynamic, object>>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.TemplateManager/TemplateOptions.cs:8:    public class TemplateOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.TemplateManager/LanguageTemplateDictionary.cs:11:    public class LanguageTemplateDictionary : Dictionary<string, TemplateIdMap>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.TemplateManager/ITemplateRenderer.cs:8:    public interface ITemplateRenderer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/IQnAMakerClient.cs:12:    public interface IQnAMakerClient
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/QnAMakerEndpoint.cs:14:    public class QnAMakerEndpoint
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/QnAMakerBotComponent.cs:19:    public class QnAMakerBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/ITelemetryQnAMaker.cs:13:    public interface ITelemetryQnAMaker
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/FeedbackRecordsRequest.cs:10:    public class FeedbackRecordsRequest
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/AnswerSpanResponse.cs:11:    public class AnswerSpanResponse
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/Filters.cs:9:    public class Filters
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/Metadata.cs:14:    public class Metadata
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/RankerTypes.cs:10:    public class RankerTypes
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/QnAMakerTraceInfo.cs:15:    public class QnAMakerTraceInfo
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/QnARequestContext.cs:12:    public class QnARequestContext
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/QueryResults.cs:11:    public class QueryResults
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/QnAResponseContext.cs:12:    public class QnAResponseContext
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/FeedbackRecords.cs:11:    public class FeedbackRecords
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/FeedbackRecord.cs:11:    public class FeedbackRecord
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/MetadataFilter.cs:9:    public class MetadataFilter
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/ServiceType.cs:9:    public enum ServiceType
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Models/QueryResult.cs:12:    public class QueryResult
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/QnAMaker.cs:19:    public class QnAMaker : IQnAMakerClient, ITelemetryQnAMaker
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/QnAMakerComponentRegistration.cs:13:    public class QnAMakerComponentRegistration : DeclarativeComponentRegistrationBridge<QnAMakerBotComponent>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/QnAMakerOptions.cs:14:    public class QnAMakerOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/QnAMakerRecognizer.cs:23:    public class QnAMakerRecognizer : Recognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/QnADialogResponseOptions.cs:12:    public class QnADialogResponseOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/JoinOperator.cs:9:    public enum JoinOperator
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Dialogs/QnAMakerDialogOptions.cs:11:    public class QnAMakerDialogOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Dialogs/QnaMakerPrompt.cs:14:    public class QnaMakerPrompt
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/Dialogs/QnAMakerDialog.cs:25:    public class QnAMakerDialog : WaterfallDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.AI.QnA/CustomQuestionAnswering.cs:19:    public class CustomQuestionAnswering : IQnAMakerClient, ITelemetryQnAMaker
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Azure/AzureBlobTranscriptStore.cs:24:    public class AzureBlobTranscriptStore : ITranscriptStore
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Azure/AzureBlobStorage.cs:32:    public class AzureBlobStorage : IStorage
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Azure/CosmosDbPartitionedStorage.cs:21:    public class CosmosDbPartitionedStorage : IStorage, IDisposable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Azure/CosmosDbPartitionedStorageOptions.cs:12:    public class CosmosDbPartitionedStorageOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/SetTestOptionsMiddleware.cs:10:    public class SetTestOptionsMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/MemoryAssertions.cs:19:    public class MemoryAssertions : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/UserConversationUpdate.cs:19:    public class UserConversationUpdate : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/UserActivity.cs:17:    public class UserActivity : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/CustomEvent.cs:18:    public class CustomEvent : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/UserTyping.cs:16:    public class UserTyping : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/AssertReply.cs:15:    public class AssertReply : AssertReplyActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/AssertReplyActivity.cs:20:    public class AssertReplyActivity : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/AssertNoActivity.cs:21:    public class AssertNoActivity : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/UserSays.cs:17:    public class UserSays : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/SetProperties.cs:23:    public class SetProperties : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/AssertReplyOneOf.cs:17:    public class AssertReplyOneOf : AssertReplyActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/AssertTelemetryContains.cs:19:    public class AssertTelemetryContains : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestActions/UserDelay.cs:16:    public class UserDelay : TestAction
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/Actions/AssertCondition.cs:16:    public class AssertCondition : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/AdaptiveTestingBotComponent.cs:20:    public class AdaptiveTestingBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/TestScript.cs:29:    public class TestScript
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/Mocks/MockLuisLoader.cs:16:    public class MockLuisLoader : ICustomDeserializer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/Mocks/MockHttpRequestMiddleware.cs:18:    public class MockHttpRequestMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/Mocks/MockLuisRecognizer.cs:24:    public class MockLuisRecognizer : Recognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/Mocks/MockedHttpClientHandler.cs:17:    public class MockedHttpClientHandler : HttpClientHandler
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/AdaptiveTestingComponentRegistration.cs:14:    public class AdaptiveTestingComponentRegistration : DeclarativeComponentRegistrationBridge<AdaptiveTestingBotComponent>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/UserTokenMocks/UserTokenBasicMock.cs:13:    public class UserTokenBasicMock : UserTokenMock
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/SettingMocks/SettingStringMock.cs:13:    public class SettingStringMock : SettingMock
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/SettingMocks/MockSettingsMiddleware.cs:14:    public class MockSettingsMiddleware : IMiddleware
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/SettingMocks/SettingStringAssignment.cs:11:    public class SettingStringAssignment
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/HttpRequestMocks/HttpResponseMockMessage.cs:11:    public class HttpResponseMockMessage
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/HttpRequestMocks/HttpResponseMock.cs:14:    public class HttpResponseMock
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/HttpRequestMocks/HttpResponseMock.cs:19:        public enum ResponseContentType
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/HttpRequestMocks/HttpRequestSequenceMock.cs:19:    public class HttpRequestSequenceMock : HttpRequestMock
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/HttpRequestMocks/HttpRequestSequenceMock.cs:41:        public enum BodyMatchType
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/HttpRequestMocks/HttpResponseMockContent.cs:15:    public class HttpResponseMockContent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive.Testing/HttpRequestMocks/SequenceResponseManager.cs:12:    public class SequenceResponseManager
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionEvaluator.cs:39:    public class ExpressionEvaluator
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/StringExpressionConverter.cs:14:    public class StringExpressionConverter : JsonConverter<StringExpression>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/ExpressionPropertyConverter.cs:15:    public class ExpressionPropertyConverter<T> : JsonConverter<ExpressionProperty<T>>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/NumberExpressionConverter.cs:14:    public class NumberExpressionConverter : JsonConverter<NumberExpression>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/ArrayExpressionConverter.cs:15:    public class ArrayExpressionConverter<T> : JsonConverter<ArrayExpression<T>>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/ObjectExpressionConverter.cs:15:    public class ObjectExpressionConverter<T> : JsonConverter<ObjectExpression<T>>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/EnumExpressionConverter.cs:15:    public class EnumExpressionConverter<T> : JsonConverter<EnumExpression<T>>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/IntExpressionConverter.cs:14:    public class IntExpressionConverter : JsonConverter<IntExpression>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/ValueExpressionConverter.cs:14:    public class ValueExpressionConverter : JsonConverter<ValueExpression>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/BoolExpressionConverter.cs:14:    public class BoolExpressionConverter : JsonConverter<BoolExpression>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Converters/ExpressionConverter.cs:14:    public class ExpressionConverter : JsonConverter<Expression>
+botbuilder-dotnet/libraries/AdaptiveExpressions/Expression.cs:23:    public enum ReturnType
+botbuilder-dotnet/libraries/AdaptiveExpressions/Expression.cs:64:    public class Expression
+botbuilder-dotnet/libraries/AdaptiveExpressions/Expression.cs:734:        public class FunctionTable : IDictionary<string, ExpressionEvaluator>
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/IExpressionProperty.cs:12:    public interface IExpressionProperty
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/ExpressionProperty.cs:15:    public class ExpressionProperty<T> : IExpressionProperty
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/EnumExpression.cs:14:    public class EnumExpression<T> : ExpressionProperty<T>
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/NumberExpression.cs:16:    public class NumberExpression : ExpressionProperty<double>
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/ValueExpression.cs:28:    public class ValueExpression : ExpressionProperty<object>
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/ArrayExpression.cs:16:    public class ArrayExpression<T> : ExpressionProperty<List<T>>
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/StringExpression.cs:26:    public class StringExpression : ExpressionProperty<string>
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/ObjectExpression.cs:14:    public class ObjectExpression<T> : ExpressionProperty<T>
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/BoolExpression.cs:16:    public class BoolExpression : ExpressionProperty<bool>
+botbuilder-dotnet/libraries/AdaptiveExpressions/ExpressionProperties/IntExpression.cs:16:    public class IntExpression : ExpressionProperty<int>
+botbuilder-dotnet/libraries/AdaptiveExpressions/parser/ExpressionParser.cs:19:    public class ExpressionParser : IExpressionParser
+botbuilder-dotnet/libraries/AdaptiveExpressions/parser/ParserErrorListener.cs:13:    public class ParserErrorListener : BaseErrorListener
+botbuilder-dotnet/libraries/AdaptiveExpressions/Options.cs:9:    public class Options
+botbuilder-dotnet/libraries/AdaptiveExpressions/IExpressionParser.cs:9:    public interface IExpressionParser
+botbuilder-dotnet/libraries/AdaptiveExpressions/Generated/CommonRegexVisitor.cs:37:public interface ICommonRegexVisitor<Result> : IParseTreeVisitor<Result> {
+botbuilder-dotnet/libraries/AdaptiveExpressions/Generated/ExpressionAntlrParserListener.cs:33:public interface IExpressionAntlrParserListener : IParseTreeListener {
+botbuilder-dotnet/libraries/AdaptiveExpressions/Generated/ExpressionAntlrParserVisitor.cs:34:public interface IExpressionAntlrParserVisitor<Result> : IParseTreeVisitor<Result> {
+botbuilder-dotnet/libraries/AdaptiveExpressions/Generated/CommonRegexListener.cs:36:public interface ICommonRegexListener : IParseTreeListener {
+botbuilder-dotnet/libraries/AdaptiveExpressions/Constant.cs:13:    public class Constant : Expression
+botbuilder-dotnet/libraries/AdaptiveExpressions/BuiltinFunctions/StringTransformEvaluator.cs:12:    public class StringTransformEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/AdaptiveExpressions/BuiltinFunctions/ComparisonEvaluator.cs:13:    public class ComparisonEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/AdaptiveExpressions/BuiltinFunctions/NumberTransformEvaluator.cs:12:    public class NumberTransformEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/AdaptiveExpressions/BuiltinFunctions/TimeTransformEvaluator.cs:15:    public class TimeTransformEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/AdaptiveExpressions/BuiltinFunctions/NumericEvaluator.cs:12:    public class NumericEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/AdaptiveExpressions/BuiltinFunctions/MultivariateNumericEvaluator.cs:12:    public class MultivariateNumericEvaluator : ExpressionEvaluator
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/Quantifier.cs:12:    public enum QuantifierType
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/Quantifier.cs:28:    public class Quantifier
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/IOptimizer.cs:15:    public interface IOptimizer
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/IOptimizer.cs:28:    public interface IPredicateComparer
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/TriggerTree.cs:59:    public class TriggerTree
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/Node.cs:23:    public class Node
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/Clause.cs:15:    public class Clause : Expression
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/Trigger.cs:13:    public class Trigger
+botbuilder-dotnet/libraries/AdaptiveExpressions/TriggerTrees/RelationshipType.cs:9:    public enum RelationshipType
+botbuilder-dotnet/libraries/AdaptiveExpressions/Memory/IMemory.cs:11:    public interface IMemory
+botbuilder-dotnet/libraries/AdaptiveExpressions/Memory/StackedMemory.cs:16:    public class StackedMemory : Stack<IMemory>, IMemory
+botbuilder-dotnet/libraries/AdaptiveExpressions/Memory/SimpleObjectMemory.cs:18:    public class SimpleObjectMemory : IMemory
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/ConnectedService.cs:14:    public class ConnectedService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/AzureService.cs:13:    public class AzureService : ConnectedService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/LuisService.cs:14:    public class LuisService : ConnectedService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/DispatchService.cs:14:    public class DispatchService : LuisService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/EndpointService.cs:14:    public class EndpointService : ConnectedService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/QnAMakerService.cs:14:    public class QnAMakerService : ConnectedService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/FileService.cs:13:    public class FileService : ConnectedService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/BotService.cs:13:    public class BotService : AzureService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/GenericService.cs:16:    public class GenericService : ConnectedService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/CosmosDbService.cs:14:    public class CosmosDbService : AzureService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/AppInsightsService.cs:16:    public class AppInsightsService : AzureService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/Services/BlobStorageService.cs:14:    public class BlobStorageService : AzureService
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/ServiceTypes.cs:13:    public class ServiceTypes
+botbuilder-dotnet/libraries/Microsoft.Bot.Configuration/BotConfiguration.cs:21:    public class BotConfiguration
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/AdaptiveDialog.cs:28:    public class AdaptiveDialog : DialogContainer, IDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Converters/DialogSetConverter.cs:15:    public class DialogSetConverter : JsonConverter<DialogSet>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/EntityAssignment.cs:11:    public class EntityAssignment
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/EntityInfo.cs:12:    public class EntityInfo : ICloneable
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/AdaptiveComponentRegistration.cs:13:    public class AdaptiveComponentRegistration : DeclarativeComponentRegistrationBridge<AdaptiveBotComponent>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/LanguageGenerationBotComponent.cs:16:    public class LanguageGenerationBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/ActionContext.cs:16:    public class ActionContext : DialogContext
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/DateTimeInput.cs:21:    public class DateTimeInput : InputDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/OAuthInput.cs:20:    public class OAuthInput : InputDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/ChoiceInputOptions.cs:13:    public class ChoiceInputOptions : InputDialogOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/InputState.cs:9:    public enum InputState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/InputDialogOptions.cs:9:    public class InputDialogOptions
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/AttachmentInput.cs:19:    public enum AttachmentOutputFormat
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/AttachmentInput.cs:35:    public class AttachmentInput : InputDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/ChoiceSet.cs:17:    public class ChoiceSet : List<Choice>, ITemplate<ChoiceSet>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/ChoiceInput.cs:21:    public enum ChoiceOutputFormat
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/ChoiceInput.cs:37:    public class ChoiceInput : InputDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/ConfirmInput.cs:22:    public class ConfirmInput : InputDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/NumberInput.cs:17:    public class NumberInput : InputDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/TextInput.cs:16:    public class TextInput : InputDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/Ask.cs:26:    public class Ask : SendActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Input/ChoiceOptionsSet.cs:16:    public class ChoiceOptionsSet : ChoiceFactoryOptions, ITemplate<ChoiceFactoryOptions>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/ActionChangeType.cs:13:    public enum ActionChangeType
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/LanguagePolicy.cs:14:    public class LanguagePolicy : Dictionary<string, string[]>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/EntityAssignments.cs:18:    public class EntityAssignments
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/EntityAssignmentComparer.cs:18:    public class EntityAssignmentComparer : Comparer<EntityAssignment>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/ActionChangeList.cs:14:    public class ActionChangeList
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/CodeAction.cs:18:    public class CodeAction : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ActionScopeCommands.cs:10:    public class ActionScopeCommands
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/BreakLoop.cs:16:    public class BreakLoop : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/DebugBreak.cs:19:    public class DebugBreak : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/GetConversationReference.cs:16:    public class GetConversationReference : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/TraceActivity.cs:17:    public class TraceActivity : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ForEachElement.cs:19:    public class ForEachElement : DialogContainer, IDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ContinueConversationLater.cs:29:    public class ContinueConversationLater : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/DynamicBeginDialog.cs:19:    public class DynamicBeginDialog : BeginDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/CancelAllDialogs.cs:16:    public class CancelAllDialogs : CancelAllDialogsBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/PropertyAssignment.cs:12:    public class PropertyAssignment
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ContinueConversation.cs:30:    public class ContinueConversation : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/TelemetryTrackEventAction.cs:18:    public class TelemetryTrackEventAction : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ReplaceDialog.cs:17:    public class ReplaceDialog : BaseInvokeDialog, IAdaptiveDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/EditArray.cs:20:    public class EditArray : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/EditArray.cs:83:        public enum ArrayChangeType
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/EndTurn.cs:16:    public class EndTurn : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/DeleteActivity.cs:16:    public class DeleteActivity : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/GetConversationMembers.cs:19:    public class GetConversationMembers : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/UpdateActivity.cs:19:    public class UpdateActivity : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/BeginDialog.cs:16:    public class BeginDialog : BaseInvokeDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/DeleteProperties.cs:18:    public class DeleteProperties : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ActionScope.cs:16:    public class ActionScope : Dialog, IDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/EditActions.cs:18:    public class EditActions : Dialog, IDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/CancelAllDialogsBase.cs:17:    public class CancelAllDialogsBase : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/SignOutUser.cs:17:    public class SignOutUser : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ThrowException.cs:16:    public class ThrowException : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/EndDialog.cs:17:    public class EndDialog : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/EmitEvent.cs:16:    public class EmitEvent : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/SetProperty.cs:18:    public class SetProperty : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/IfCondition.cs:18:    public class IfCondition : Dialog, IDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/SetProperties.cs:19:    public class SetProperties : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/GotoAction.cs:16:    public class GotoAction : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/SwitchCondition.cs:18:    public class SwitchCondition : Dialog, IDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/HttpRequest.cs:27:    public class HttpRequest : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/HttpRequest.cs:71:        public enum ResponseTypes
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/HttpRequest.cs:103:        public enum HttpMethod
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/HttpRequest.cs:427:        public class Result
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/SendHandoffActivity.cs:14:    public class SendHandoffActivity : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/CancelDialog.cs:16:    public class CancelDialog : CancelAllDialogsBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ForEachPage.cs:20:    public class ForeachPage : ActionScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ContinueLoop.cs:16:    public class ContinueLoop : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/DeleteProperty.cs:16:    public class DeleteProperty : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ForEach.cs:19:    public class Foreach : ActionScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/Case.cs:14:    public class Case : ActionScope
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/ActionScopeResult.cs:13:    public class ActionScopeResult
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/RepeatDialog.cs:17:    public class RepeatDialog : BaseInvokeDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/BeginSkill.cs:20:    public class BeginSkill : SkillDialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/GetActivityMembers.cs:19:    public class GetActivityMembers : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/LogAction.cs:19:    public class LogAction : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Actions/SendActivity.cs:20:    public class SendActivity : Dialog
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnQnAMatch.cs:16:    public class OnQnAMatch : OnIntent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnCondition.cs:25:    public class OnCondition : IItemIdentity, IDialogDependencies
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnIntent.cs:17:    public class OnIntent : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnCancelDialog.cs:13:    public class OnCancelDialog : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnAssignEntity.cs:13:    public class OnAssignEntity : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnContinueConversation.cs:14:    public class OnContinueConversation : OnEventActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnChooseProperty.cs:13:    public class OnChooseProperty : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnCommandActivity.cs:18:    public class OnCommandActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnEventActivity.cs:14:    public class OnEventActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnEndOfConversationActivity.cs:14:    public class OnEndOfConversationActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnHandoffActivity.cs:14:    public class OnHandoffActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnTypingActivity.cs:14:    public class OnTypingActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnMessageUpdateActivity.cs:14:    public class OnMessageUpdateActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnInvokeActivity.cs:14:    public class OnInvokeActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnMessageReactionActivity.cs:14:    public class OnMessageReactionActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnMessageDeleteActivity.cs:14:    public class OnMessageDeleteActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnInstallationUpdateActivity.cs:14:    public class OnInstallationUpdateActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnActivity.cs:15:    public class OnActivity : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnCommandResultActivity.cs:18:    public class OnCommandResultActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnConversationUpdateActivity.cs:14:    public class OnConversationUpdateActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/Activities/OnMessageActivity.cs:18:    public class OnMessageActivity : OnActivity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnBeginDialog.cs:13:    public class OnBeginDialog : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnError.cs:13:    public class OnError : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnEndOfActions.cs:13:    public class OnEndOfActions : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnDialogEvent.cs:14:    public class OnDialogEvent : OnCondition
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnUnknownIntent.cs:20:    public class OnUnknownIntent : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnRepromptDialog.cs:13:    public class OnRepromptDialog : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnChooseIntent.cs:19:    public class OnChooseIntent : OnIntent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/TriggerConditions/OnChooseEntity.cs:13:    public class OnChooseEntity : OnDialogEvent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/PropertySchema.cs:12:    public class PropertySchema
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Templates/ActivityTemplate.cs:19:    public class ActivityTemplate : ITemplate<Activity>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Templates/TextTemplate.cs:18:    public class TextTemplate : ITemplate<string>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Templates/StaticActivityTemplate.cs:15:    public class StaticActivityTemplate : ITemplate<Activity>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/CrossTrainedRecognizerSet.cs:31:    public class CrossTrainedRecognizerSet : AdaptiveRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/HashtagEntityRecognizer.cs:15:    public class HashtagEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/EmailEntityRecognizer.cs:15:    public class EmailEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/ConfirmationEntityRecognizer.cs:15:    public class ConfirmationEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/TemperatureEntityRecognizer.cs:15:    public class TemperatureEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/EntityRecognizerSet.cs:16:    public class EntityRecognizerSet : List<EntityRecognizer>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/NumberEntityRecognizer.cs:15:    public class NumberEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/UrlEntityRecognizer.cs:15:    public class UrlEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/NumberRangeEntityRecognizer.cs:15:    public class NumberRangeEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/ChannelMentionEntityRecognizer.cs:40:    public class ChannelMentionEntityRecognizer : AdaptiveRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/AgeEntityRecognizer.cs:15:    public class AgeEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/DimensionEntityRecognizer.cs:15:    public class DimensionEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/GuidEntityRecognizer.cs:15:    public class GuidEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/MentionEntityRecognizer.cs:15:    public class MentionEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/PhoneNumberEntityRecognizer.cs:15:    public class PhoneNumberEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/DateTimeEntityRecognizer.cs:15:    public class DateTimeEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/RegExEntityRecognizer.cs:17:    public class RegexEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/OrdinalEntityRecognizer.cs:15:    public class OrdinalEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/IpEntityRecognizer.cs:15:    public class IpEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/PercentageEntityRecognizer.cs:15:    public class PercentageEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/CurrencyEntityRecognizer.cs:15:    public class CurrencyEntityRecognizer : TextEntityRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/TextEntity.cs:12:    public class TextEntity : Entity
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/EntityRecognizers/EntityRecognizer.cs:21:    public class EntityRecognizer : AdaptiveRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/RecognizerSet.cs:26:    public class RecognizerSet : AdaptiveRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/MultiLanguageRecognizer.cs:18:    public class MultiLanguageRecognizer : AdaptiveRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/RegexRecognizer.cs:22:    public class RegexRecognizer : AdaptiveRecognizer
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Recognizers/IntentPattern.cs:12:    public class IntentPattern
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/AdaptiveDialogBot.cs:25:    public class AdaptiveDialogBot : IBot
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/AdaptiveBotComponent.cs:32:    public class AdaptiveBotComponent : BotComponent
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Memory/Expressions/Converters/DialogExpressionConverter.cs:19:    public class DialogExpressionConverter : JsonConverter<DialogExpression>, IObservableConverter, IObservableJsonConverter
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Memory/Expressions/Converters/ChoiceSetConverter.cs:13:    public class ChoiceSetConverter : JsonConverter<ChoiceSet>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Memory/Expressions/DialogExpression.cs:14:    public class DialogExpression : ObjectExpression<Dialog>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/LGResourceLoader.cs:15:    public class LGResourceLoader
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Selectors/MostSpecificSelector.cs:16:    public class MostSpecificSelector : TriggerSelector
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Selectors/FirstSelector.cs:16:    public class FirstSelector : TriggerSelector
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Selectors/ConditionalSelector.cs:17:    public class ConditionalSelector : TriggerSelector
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Selectors/RandomSelector.cs:19:    public class RandomSelector : TriggerSelector
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Selectors/TrueSelector.cs:16:    public class TrueSelector : TriggerSelector
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/ActionState.cs:13:    public class ActionState : DialogState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/LanguageGenerationComponentRegistration.cs:17:    public class LanguageGenerationComponentRegistration : DeclarativeComponentRegistrationBridge<LanguageGenerationBotComponent>
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/AdaptiveDialogState.cs:12:    public class AdaptiveDialogState
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Functions/IsDialogActiveFunction.cs:23:    public class IsDialogActiveFunction : ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Functions/HasPendingActionsFunction.cs:18:    public class HasPendingActionsFunction : ExpressionEvaluator
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/AdaptiveEvents.cs:9:    public class AdaptiveEvents : DialogEvents
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Generators/ResourceMultiLanguageGenerator.cs:16:    public class ResourceMultiLanguageGenerator : MultiLanguageGeneratorBase
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Generators/TemplateEngineLanguageGenerator.cs:19:    public class TemplateEngineLanguageGenerator : LanguageGenerator
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Generators/LanguageGeneratorManager.cs:20:    public class LanguageGeneratorManager
+botbuilder-dotnet/libraries/Microsoft.Bot.Builder.Dialogs.Adaptive/Generators/MultiLanguageGenerator.cs:13:    public class MultiLanguageGenerator : MultiLanguageGeneratorBase

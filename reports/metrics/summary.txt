@@ -1,0 +1,37 @@
+--- botbuilder-dotnet/libraries ---
+--- agents-for-net/src/libraries ---
+--- teams.net/Libraries ---
+--- core-teams.net/core/src ---
+--- Summary of LOC and Public API (iteration 1) ---
+
+Code lines (C#) from cloc:
+- botbuilder-dotnet/libraries: 96,737
+- agents-for-net/src/libraries: 40,563
+- teams.net/Libraries: 25,725
+- core-teams.net/core/src: 4,996
+-- Total (all targets): 168,021
+
+Share of total code:
+- botbuilder-dotnet: 57.6%
+- agents-for-net: 24.2%
+- teams.net: 15.3%
+- core-teams.net: 3.0%
+
+Public-type counts (grep for `public class|interface|struct|enum`):
+- botbuilder-dotnet: 904
+- agents-for-net: 626
+- teams.net: 587
+- core-teams.net: 82
+-- Total public types: 2,199
+
+Public types per 1K code lines:
+- botbuilder-dotnet: 9.35 types / KLOC
+- agents-for-net: 15.43 types / KLOC
+- teams.net: 22.82 types / KLOC
+- core-teams.net: 16.41 types / KLOC
+-- Overall: 13.09 types / KLOC
+
+Next steps:
+- Generate charts from `reports/metrics/cloc_*.csv` and include under `reports/charts/`.
+- Expand `reports/draft_report_iteration1.md` with API highlights using `reports/metrics/*_public_types.txt`.
+- Run additional metrics (project counts, test files, generated vs handwritten) if desired.
