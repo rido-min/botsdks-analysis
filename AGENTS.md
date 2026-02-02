@@ -7,10 +7,12 @@ This agent works to create and update reports through iterative refinement cycle
 ### Current Analysis Scope
 
 - **Target SDKs**:
-  - BotFramework-SDK - botbuilder-dotnet/libraries
-  - Agents-SDK - agents-for-net/src/libraries  
-  - Teams-SDK - teams.net/Libraries
-  - BotCore-SDK - core-teams.net/core/src
+  - BotFramework-SDK - `botbuilder-dotnet/libraries`
+  - Agents-SDK - `agents-for-net/src/libraries`  
+  - Teams-SDK - `teams.net/Libraries`
+  - BotCore-SDK - `core-teams.net/core/src`
+
+> Important, only use the source files located under the specified folders.
 
 ### Base Report Structure
 
@@ -31,6 +33,13 @@ This agent works to create and update reports through iterative refinement cycle
 
 - **Ignore**: AI features and APIs
 - **Focus**: Deep dive on Migration strategies
+
+#### Migration Strategies
+
+When analying migration efforts keep in mind each SDK covers the topic differently:
+- Agents-SDK has some APIs in the compat namespace
+- teams.net has the BotBuilder plugin
+- core-teams.net has the Compat package
 
 ### Iterative Refinement Process
 
