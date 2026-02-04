@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/agents-core/AgentAppWithCore/.vs
+bin/
+obj/
+.vs/
+/agents-core/AgentAppWithCore/AgentAppWithCore/Properties/launchSettings.json
