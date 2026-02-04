@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/agents-sdk/">
+    <Project Path="../../agents-for-net/src/libraries/Authentication/Authentication.Msal/Microsoft.Agents.Authentication.Msal.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Builder/Microsoft.Agents.Builder/Microsoft.Agents.Builder.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Client/Microsoft.Agents.Client/Microsoft.Agents.Client.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Client/Microsoft.Agents.Connector/Microsoft.Agents.Connector.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Core/Microsoft.Agents.Authentication/Microsoft.Agents.Authentication.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Core/Microsoft.Agents.Core.Analyzers/Microsoft.Agents.Core.Analyzers.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Core/Microsoft.Agents.Core/Microsoft.Agents.Core.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Hosting/AspNetCore/Microsoft.Agents.Hosting.AspNetCore.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Hosting/Microsoft.Agents.Hosting.BotCore/Microsoft.Agents.Hosting.BotCore.csproj" Id="61518f14-b306-4d64-8252-e858473c1ebb" />
+    <Project Path="../../agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage.Transcript/Microsoft.Agents.Storage.Transcript.csproj" />
+    <Project Path="../../agents-for-net/src/libraries/Storage/Microsoft.Agents.Storage/Microsoft.Agents.Storage.csproj" />
+  </Folder>
+  <Folder Name="/core/">
+    <Project Path="../../core-teams.net/core/src/Microsoft.Teams.Bot.Core/Microsoft.Teams.Bot.Core.csproj" />
+  </Folder>
+  <Project Path="../../agents-for-net/src/samples/EmptyAgent/EmptyAgent.csproj" />
+  <Project Path="AgentAppWithCore/AgentAppWithCore.csproj" />
+</Solution>
