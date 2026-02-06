@@ -7,6 +7,8 @@ using Microsoft.Agents.Builder.State;
 using Microsoft.Agents.Core.Models;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Text.Json.Nodes;
+using System.Text.Json;
 
 namespace EmptyAgent;
 
@@ -31,6 +33,8 @@ public class MyAgent : AgentApplication
 
     private async Task OnMessageAsync(ITurnContext turnContext, ITurnState turnState, CancellationToken cancellationToken)
     {
-        await turnContext.SendActivityAsync($"You said: {turnContext.Activity.Text}", cancellationToken: cancellationToken);
+        var ma = MessageFactory.CreateMessageActivity("This is a TM sent from Agents SDK with Core");
+        ma.Properties.Add("isTargetedMessage", JsonElement.Parse("true"));
+        await turnContext.SendActivityAsync(ma, cancellationToken);
     }
 }

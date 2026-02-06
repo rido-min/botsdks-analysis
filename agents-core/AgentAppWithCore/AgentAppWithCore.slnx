@@ -16,5 +16,6 @@
     <Project Path="../../core-teams.net/core/src/Microsoft.Teams.Bot.Core/Microsoft.Teams.Bot.Core.csproj" />
   </Folder>
   <Project Path="../../agents-for-net/src/samples/EmptyAgent/EmptyAgent.csproj" />
+  <Project Path="../../agents-for-net/src/samples/StreamingMessageAgent/StreamingMessageAgent.csproj" />
   <Project Path="AgentAppWithCore/AgentAppWithCore.csproj" />
 </Solution>
